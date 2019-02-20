@@ -403,3 +403,74 @@ transform: rotate(-135deg);
   flex-direction: column;
   align-items: flex-start;
 }
+
+.marginLeftMin100px{
+  margin-left: -100px;
+}
+
+.section8SecondDiv{
+  display: flex;
+  align-items: center;
+}
+
+.section9MainBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section9MainBlock div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section8ThirdDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section8ThirdDiv p::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #69b6d5;
+}
+
+.footerFirstDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.footerABlocks{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerABlocks a{
+  width: 270px;
+}
+
+.footerLogo{
+  width: 350px;
+}
+
+.footerLogo img{
+  width: 100%;
+}
+
+.footerLogoAndPhone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
