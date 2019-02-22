@@ -12,35 +12,105 @@
 <body>
   <header class="navbar navbar-light bg-light">
     <a href="#" class="header-logo navbar-brand">
-      <img src="img/logo-new-concept-last2.png" alt="">
+      <img src="img/logo.png" alt="">
     </a>
-    <button class="first-button" type="button" data-toggle="lapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon1">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
+      <div class="animated-icon3"><span></span><span></span><span></span></div>
     </button>
   </header>
+  <nav id="sidebar">
+    <div class="sideBarBlur">
+
+    </div>
+    <ul class="list-unstyled components">
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Предпринимателям</a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Инвесторам</a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Стартаперам</a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Экспертам</a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Резидентам LIT</a>
+      </li>
+      <li>
+        <a href="#" data-toggle="collapse" aria-expanded="false">Образование</a>
+      </li>
+    </ul>
+  </nav>
   <section class="section1">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="img/firstSlide.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="text-slider">
-              <div class="sliderText">
-                <h3 class="sliderH3">ПЕРВАЯ НОВАТОРСКАЯ В МИРЕ ОБЪЕДИНЕННАЯ ПЛАТФОРМА ДЛЯ :</h3>
-                <p class="raleway50R">предпринимателей, инвесторов, стартапов и специалистов, для решений текущих задач и реализаций комерческих проектов. </p>
-                <p class="raleway40R">Горячие возможности - <span class="nexaBold45px">75$</span> каждому участнику за регистрацию на бонусный счет.*</p>
-                <button type="button" name="button" class="sliderButton">Подробнее</button>
-                <span class="raleway25R">*Для активации подписки</span>
-              </div>
-            </div>
-
+          <img class="d-block w-100" src="img/businesman.svg">
+          <div class="carousel-caption sliderSettings">
+            <!--Opisanie-->
+            <h1>Оптимизируй и<br>Масштабируй свой бизнес</h1>
+            <h3>Предварительный аудит и анализ,<br>Выявление проблематики,<br>Предложение/внедрение решений</h3>
+            <br>
+            <button class="sliderButton">Подробнее</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/startup.svg">
+          <div class="carousel-caption sliderSettings">
+            <!--Opisanie-->
+            <h1>Воплощайте свою идею в<br>реальность</h1>
+            <h3>Сопровождаем - Привлекаем инвестиции,<br>Продвигаем ваш бизнес проект</h3>
+            <br>
+            <button class="sliderButton">Подробнее</button>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="img/investor.svg">
+          <div class="carousel-caption sliderSettings">
+            <h1>Стабильные и надежные<br>инструменты для эфективного<br>инвестирования</h1>
+            <h3>Обучение по актуальным рынкам<br>Отобранные и актуальные предложения под инвестиции<br>Доверительное управление<br>Юридическое сопровождение</h3>
+            <br>
+            <button class="sliderButton">Подробнее</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/expert.svg">
+          <div class="carousel-caption sliderSettings">
+            <!--Opisanie-->
+            <h1>Становитесь наставником<br>В своей нише для других</h1>
+            <br>
+            <h3>Выполняйте задачи и зарабатывайте с<br>удовольствием</h3>
+            <button class="sliderButton">Подробнее</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/resident.svg">
+          <div class="carousel-caption sliderSettings">
+            <!--Opisanie-->
+            <h1>Постройте карьеру с нами</h1>
+            <h3>Рекомендуйте нашу платформу, получайте кешбэк и<br>дополнительные бонусы</h3>
+            <br>
+            <button class="sliderButton">Подробнее</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/firstSlide.jpg" alt="Second slide">
+          <div class="carousel-caption sliderSettings">
+            <h1>ПЕРВАЯ НОВАТОРСКАЯ В МИРЕ ОБЪЕДИНЕННАЯ ПЛАТФОРМА ДЛЯ :</h3>
+            <h3 class="raleway50R">предпринимателей, инвесторов, стартапов и специалистов, для решений текущих задач и реализаций комерческих проектов. </h3>
+            <h3 class="raleway40R">Горячие возможности - <span class="nexaBold45px">75$</span> каждому участнику за регистрацию на бонусный счет.*</h3>
+            <button type="button" name="button" class="sliderButton">Подробнее</button>
+            <span style="color: #4F4F4F" class="raleway25R">*Для активации подписки</span>
           </div>
         </div>
       </div>
@@ -52,401 +122,431 @@
       </a>
     </div>
   </section>
-  <section class="section2">
-    <h1>Ознакомьтесь с возможностями платформы LIT в этом видео</h1>
-    <div class="videoButton" data-toggle="modal" data-target="#exampleModalCenter">
-      <img src="img/play.png" alt="">
-    </div>
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-          </div>
-          <div class="modal-body">
-            <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/-ZDHcnhDx8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-          </div>
-        </div>
-      </div>
-    </div>
+  <div style="background-image: linear-gradient(to bottom right,#D0DFF3,#EBE4E3,#DCD6E8,#EEEFF0,#F0E9F6,#F8F2F2);">
 
-
-  </section>
-  <section class="section3">
-    <h1>У нас Вы можете получить</h1>
-    <div class="section3-main-block container-fluid">
-      <div class="section3-blocks  revealator-slideright revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/education.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Практические знания и образование
-        </span>
+    <section class="section2">
+      <h1>Ознакомьтесь с возможностями платформы LIT в этом видео</h1>
+      <div class="videoButton" data-toggle="modal" data-target="#exampleModalCenter">
+        <img src="img/play.png" alt="">
       </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/toolbox.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Инструменты для решения текущих задач
-        </span>
-      </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/pazzle.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Комплекс решений для реализации Вашей идеи
-        </span>
-      </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/business.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Свой бизнес в рамках нашей платформы
-        </span>
-      </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/consulting.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Необходимую консультацию
-        </span>
-      </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/meeting.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Полезные знакомства
-        </span>
-      </div>
-      <div class="section3-blocks  revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
-        <div class="section3-img">
-          <img src="img/investment.png" alt="">
-        </div>
-        <span class="raleway20R or686868">
-          Инструменты для выгодного и безопасного инверстирования
-        </span>
-      </div>
-    </div>
-  </section>
-  <section class="section4">
-    <h2>Экосистема</h2>
-    <h1>LEMONDRESSER INNOVATION TECHNOLOGIES</h1>
-    <div class="">
-
-    </div>
-  </section>
-  <section class="section5">
-    <h1>
-      Наши актуальные продукты, услуги и сервисы:
-    </h1>
-    <div class="section5-main-block">
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/1-chat-bot.png" alt="">
-        </div>
-        <span>Боты в мессенджерах</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/2-media.png" alt="">
-        </div>
-        <span>Медиа продукты</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/3-business-packing.png" alt="">
-        </div>
-        <span>Упаковка бизнема под ключ</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/4-business-consulting.png" alt="">
-        </div>
-        <span>Консалтинг для предпринимателей</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/5-manage.png" alt="">
-        </div>
-        <span>Доверительное управление</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/6-brand-book.png" alt="">
-        </div>
-        <span>Разработка бренд бука компании</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/7-invest-consulting.png" alt="">
-        </div>
-        <span>Консалтинг для инвесторов</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay8 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/8-education.png" alt="">
-        </div>
-        <span>Курсы и образовательные программы</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay9 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/9-CRM.png" alt="">
-        </div>
-        <span>CRM</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay10 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/10-invest.png" alt="">
-        </div>
-        <span>Накопительные инвестиции</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay11 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/11-HR.png" alt="">
-        </div>
-        <span>Услуги HR и рекрутинг</span>
-      </div>
-      <div class="section5-blocks section3-blocks revealator-slideright revealator-delay12 revealator-once revealator-partially-below">
-        <div class="section5-img">
-          <img src="img/12-call-bot.png" alt="">
-        </div>
-        <span>IP-Call робот автопрозвона</span>
-      </div>
-    </div>
-  </section>
-  <section class="section6">
-    <h1>
-      Как работате платформа LIT?
-    </h1>
-    <div class="section6-first-div">
-      <div class="section6-blocs margin-bottom31px">
-        <div class="section6-img">
-          <img src="img/client.png" alt="">
-        </div>
-        <span style="color:#585858" class="raleway20R">
-          Вы наш резидент
-        </span>
-      </div>
-      <div class="section6-arrow">
-        <img src="img/big-right-arrow.jpg" alt="">
-      </div>
-      <div class="section6-blocs margin-top40px">
-        <div class="section6-img">
-          <img src="img/solution.png" alt="">
-        </div>
-        <span style="color:#585858" class="raleway20R">
-          <u>Консультируем</u><br>
-          <u>Обучаем</u><br>
-          <u>Подбираем</u><br>
-          Внедряем
-        </span>
-      </div>
-      <div class="section6-arrow">
-        <img src="img/left-big-arrow.jpg" alt="">
-      </div>
-      <div class="section6-blocs margin-top10px">
-        <div class="section6-img">
-          <img src="img/team.png" alt="">
-        </div>
-        <span style="color:#585858" class="raleway20R">
-          Более 80 человек команды LIT решают ваши задачи
-        </span>
-      </div>
-    </div>
-    <div class="section6-second-div">
-      <div class="section6-blocks col">
-        <span class="big-numbers">
-          1
-        </span>
-        <span class="raleway25M">
-          Регистрация
-        </span>
-        <button type="button" name="button" class="litRegistration">Зарегистрироваться</button>
-      </div>
-
-      <div>
-        <img src="img/small-right-arrow.jpg" alt="">
-      </div>
-      <div class="section6-blocks col">
-        <span class="big-numbers">
-          2
-        </span>
-        <span class="raleway25M">
-          Получение бонусов
-        </span>
-      </div>
-      <div>
-        <img src="img/small-right-arrow.jpg" alt="">
-      </div>
-      <div class="section6-blocks col">
-        <span class="big-numbers">
-          3
-        </span>
-        <span class="raleway25M">
-          Доступ ко всем инструментам в личном кабинете + активна партнерская программа
-        </span>
-      </div>
-
-    </div>
-  </section>
-  <section class="section7">
-    <h1>Выберите свою категорию</h1>
-    <div class="">
-      <div class="section7-type-client">
-        <div class="section7-blocks section7BlocksHover" id="employer">
-          <div class="section7-img">
-            <img src="img/B.png" alt="">
-          </div>
-          <span class="raleway25L">
-            Я <span class="raleway25B">ПРЕДПРИНИМАТЕЛЬ</span>
-          </span>
-        </div>
-        <div class="section7-blocks" id="investor">
-          <div class="section7-img">
-            <img src="img/I.png" alt="">
-          </div>
-          <span class="raleway25L">
-            Я <span class="raleway25B">ИНВЕСТОР</span>
-          </span>
-        </div>
-        <div class="section7-blocks" id="startaper">
-          <div class="section7-img">
-            <img src="img/S.png" alt="">
-          </div>
-          <span class="raleway25L">
-            Я <span class="raleway25B">СТАРТАПЕР</span>
-          </span>
-        </div>
-        <div class="section7-blocks" id="expert">
-          <div class="section7-img">
-            <img src="img/E.png" alt="">
-          </div>
-          <span class="raleway25L">
-            Я <span class="raleway25B">ЭКСПЕРТ</span>
-          </span>
-        </div>
-      </div>
-      <div class=" section7-form">
-        <div class="section7FirstDiv">
-          <h2 class="margin-left80px raleway72B">Заполните форму и получите возможноть:</h2>
-          <form class="firstFormEmployer" action="index.html" method="post">
-            <div class="">
-              <input  class="firstFormEmployer" type="radio" id="radio01" name="radio" checked/>
-              <label class="labelForm" for="radio01"><span></span><p class="raleway25M color333333">Безоплатно получить доступ к международным ресурсам, где о Вас узнают более 500 000 потенциальных клиентов.</p></label>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
             </div>
-            <div class="">
-              <input  class="firstFormEmployer" type="radio" id="radio02" name="radio"/>
-              <label class="labelForm" for="radio02"><span></span><p class="raleway25M color333333">Безоплатный общий аудит Вашего бизнеса/предприятия с возможностью оптимизировать деятельность организации и увеличить оборот в два раза за полгода.</p></label>
+            <div class="modal-body">
+              <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/-ZDHcnhDx8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="section3">
+      <h1>У нас Вы можете получить</h1>
+      <div class="section3-main-block container-fluid">
+        <div class="section3-blocks  revealator-slideright revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/education.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Практические знания и образование
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/toolbox.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Инструменты для решения текущих задач
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/pazzle.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Комплекс решений для реализации Вашей идеи
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/business.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Свой бизнес в рамках нашей платформы
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/consulting.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Необходимую консультацию
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/meeting.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Полезные знакомства
+          </span>
+        </div>
+        <div class="section3-blocks  revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
+          <div class="section3-img">
+            <img src="img/investment.png" alt="">
+          </div>
+          <span class="raleway20R or686868">
+            Инструменты для выгодного и безопасного инверстирования
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <h2>Экосистема</h2>
+      <h1>LEMONDRESSER INNOVATION TECHNOLOGIES</h1>
+      <div class="triangleClass">
+        <div class="" id="pirpleTriangle">
+        </div>
+        <div class="triangleSection4" id="blueTriangle">
+        </div>
+        <div class="triangleSection4" id="greenTriangle">
+
+        </div>
+        <div class="triangleSection4" id="yellowTriangle">
+
+        </div>
+        <div class="triangleSection4" id="peachTriangle">
+
+        </div>
+        <div class="triangleSection4" id="pinkTriangle">
+
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <h1>
+        Наши актуальные продукты, услуги и сервисы:
+      </h1>
+      <div class="section5-main-block">
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/1-chat-bot.png" alt="">
+          </div>
+          <span>Боты в мессенджерах</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/2-media.png" alt="">
+          </div>
+          <span>Медиа продукты</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/3-business-packing.png" alt="">
+          </div>
+          <span>Упаковка бизнема под ключ</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/4-business-consulting.png" alt="">
+          </div>
+          <span>Консалтинг для предпринимателей</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/5-manage.png" alt="">
+          </div>
+          <span>Доверительное управление</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/6-brand-book.png" alt="">
+          </div>
+          <span>Разработка бренд бука компании</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/7-invest-consulting.png" alt="">
+          </div>
+          <span>Консалтинг для инвесторов</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay8 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/8-education.png" alt="">
+          </div>
+          <span>Курсы и образовательные программы</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay9 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/9-CRM.png" alt="">
+          </div>
+          <span>CRM</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay10 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/10-invest.png" alt="">
+          </div>
+          <span>Накопительные инвестиции</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay11 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/11-HR.png" alt="">
+          </div>
+          <span>Услуги HR и рекрутинг</span>
+        </div>
+        <div class="section5-blocks section3-blocks revealator-slideright revealator-delay12 revealator-once revealator-partially-below">
+          <div class="section5-img">
+            <img src="img/12-call-bot.png" alt="">
+          </div>
+          <span>IP-Call робот автопрозвона</span>
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <h1>
+        Как работате платформа LIT?
+      </h1>
+      <div class="section6-first-div">
+        <div class="section6-blocs margin-bottom31px">
+          <div class="section6-img">
+            <img src="img/client.png" alt="">
+          </div>
+          <span style="color:#585858" class="raleway20R">
+            Вы наш резидент
+          </span>
+        </div>
+        <div class="section6-arrow">
+          <img src="img/big-right-arrow.png" alt="">
+        </div>
+        <div class="section6-blocs margin-top60px">
+          <div class="section6-img">
+            <img src="img/solution.png" alt="">
+          </div>
+          <span style="color:#585858" class="raleway20R">
+            <u>Консультируем</u><br>
+            <u>Обучаем</u><br>
+            <u>Подбираем</u><br>
+            Внедряем
+          </span>
+        </div>
+        <div class="section6-arrow">
+          <img src="img/left-big-arrow.png" alt="">
+        </div>
+        <div class="section6-blocs margin-top58px">
+          <div class="section6-img">
+            <img src="img/team.png" alt="">
+          </div>
+          <span style="color:#585858" class="raleway20R">
+            Более 80 человек команды LIT решают ваши задачи
+          </span>
+        </div>
+      </div>
+      <div class="section6-second-div">
+        <div class="section6-blocks col">
+          <span class="big-numbers">
+            1
+          </span>
+          <span class="raleway25M">
+            Регистрация
+          </span>
+          <button type="button" name="button" class="litRegistration">Зарегистрироваться</button>
+        </div>
+
+        <div>
+          <img src="img/small-right-arrow.jpg" alt="">
+        </div>
+        <div class="section6-blocks col">
+          <span class="big-numbers">
+            2
+          </span>
+          <span class="raleway25M">
+            Получение бонусов
+          </span>
+        </div>
+        <div>
+          <img src="img/small-right-arrow.jpg" alt="">
+        </div>
+        <div class="section6-blocks col">
+          <span class="big-numbers">
+            3
+          </span>
+          <span class="raleway25M">
+            Доступ ко всем инструментам в личном кабинете + активна партнерская программа
+          </span>
+        </div>
+
+      </div>
+    </section>
+    <section class="section7">
+      <h1>Выберите свою категорию</h1>
+      <div class="">
+        <div class="section7-type-client">
+          <div class="section7-blocks section7BlocksHover" id="employer">
+            <div class="section7-img">
+              <img src="img/B.png" alt="">
+            </div>
+            <span class="raleway25L">
+              Я <span class="raleway25B">ПРЕДПРИНИМАТЕЛЬ</span>
+            </span>
+          </div>
+          <div class="section7-blocks" id="investor">
+            <div class="section7-img">
+              <img src="img/I.png" alt="">
+            </div>
+            <span class="raleway25L">
+              Я <span class="raleway25B">ИНВЕСТОР</span>
+            </span>
+          </div>
+          <div class="section7-blocks" id="startaper">
+            <div class="section7-img">
+              <img src="img/S.png" alt="">
+            </div>
+            <span class="raleway25L">
+              Я <span class="raleway25B">СТАРТАПЕР</span>
+            </span>
+          </div>
+          <div class="section7-blocks" id="expert">
+            <div class="section7-img">
+              <img src="img/E.png" alt="">
+            </div>
+            <span class="raleway25L">
+              Я <span class="raleway25B">ЭКСПЕРТ</span>
+            </span>
+          </div>
+        </div>
+        <div class=" section7-form">
+          <div class="section7FirstDiv">
+            <h2 class="margin-left80px raleway72B">Заполните форму и получите возможноть:</h2>
+            <form class="firstFormEmployer" action="index.html" method="post">
+              <div class="">
+                <input class="firstFormEmployer" type="radio" id="radio01" name="radio" checked />
+                <label class="labelForm" for="radio01"><span></span>
+                  <p class="raleway25M color333333">Безоплатно получить доступ к международным ресурсам, где о Вас узнают более 500 000 потенциальных клиентов.</p>
+                </label>
+              </div>
+              <div class="">
+                <input class="firstFormEmployer" type="radio" id="radio02" name="radio" />
+                <label class="labelForm" for="radio02"><span></span>
+                  <p class="raleway25M color333333">Безоплатный общий аудит Вашего бизнеса/предприятия с возможностью оптимизировать деятельность организации и увеличить оборот в два раза за полгода.</p>
+                </label>
+              </div>
+            </form>
+          </div>
+          <form class="secondForm" action="index.html" method="post">
+            <div class="form-group margin-top20px">
+              <label for="username">Имя*</label>
+              <input type="text" class="form-control" name="username" id="username">
+            </div>
+            <div class="form-group">
+              <label for="email">Почта*</label>
+              <input type="email" class="form-control" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="number">Номер телефона*</label>
+              <input type="text" class="form-control" name="number" id="number">
+            </div>
+            <div class="form-group">
+              <label for="webcite">Ваш сайт*</label>
+              <input type="text" class="form-control" name="website" id="website">
+            </div>
+            <button type="submit" class="submitButton" name="button">Отправить заявку</button>
+            <p>
+              * Важно заполнение всех полей. Это позволит нам быть более полезными для Вас и сохранит наше с Вами время.
+            </p>
           </form>
         </div>
-        <form class="secondForm" action="index.html" method="post">
-          <div class="form-group margin-top20px">
-            <label for="username">Имя*</label>
-            <input type="text" class="form-control" name="username" id="username">
+      </div>
+    </section>
+    <section class="section8">
+      <div class="section8-firstDiv">
+        <h3>
+          Станьте нашим партнером
+        </h3>
+        <span>
+          И начните зарабатывать больше
+        </span>
+        <button type="button" name="button"> Подробнее</button>
+      </div>
+      <div class="section8SecondDiv">
+        <div class="section8Img">
+          <img src="img/R.png" alt="">
+        </div>
+        <div class="marginLeftMin120px margin-top40px">
+          <span class="section8SecondDivSpan revealator-slideright revealator-once revealator-partially-below">E</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay2 revealator-once revealator-partially-below">S</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay3 revealator-once revealator-partially-below">I</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay4 revealator-once revealator-partially-below">D</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay5 revealator-once revealator-partially-below">E</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay6 revealator-once revealator-partially-below">N</span>
+          <span class="section8SecondDivSpan revealator-slideright revealator-delay7 revealator-once revealator-partially-below">T</span>
+        </div>
+      </div>
+    </section>
+    <section class="section9">
+      <h1>Наши цели на 2019 год</h1>
+      <div class="section9MainBlock">
+        <div class="revealator-slideright revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">10000</span>
+          <span class="section9SecondSpan">Довольных клиентов</span>
+        </div>
+        <div class="revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">50000</span><span class="section9SecondSpan">Резидентов LIT</span>
+        </div>
+        <div class="revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">15</span><span class="section9SecondSpan">Официально открытых нами стран для сотрудничества</span>
+        </div>
+        <div class="revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">150+</span><span class="section9SecondSpan">Прведенных обущающих программ</span>
+        </div>
+        <div class="revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">10+</span><span class="section9SecondSpan">Организованных ивентов</span>
+        </div>
+        <div class="revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">8+</span><span class="section9SecondSpan">реализованных собственных проектов</span>
+        </div>
+        <div class="revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
+          <span class="section9FirstSpan">100+</span><span class="section9SecondSpan">Запущенных стартапа</span>
+        </div>
+      </div>
+      <div class="section9SecondDiv">
+        <div class="section9Variants">
+          <span>Q1</span>
+          <div class="section9Photos secondPhoto" id="variant1">
           </div>
-          <div class="form-group">
-            <label for="email">Почта*</label>
-            <input type="email" class="form-control" name="email" id="email">
+        </div>
+        <div class="section9Variants">
+          <span>Q2</span>
+          <div class="section9Photos" id="variant2">
           </div>
-          <div class="form-group">
-            <label for="number">Номер телефона*</label>
-            <input type="text" class="form-control" name="number" id="number">
+        </div>
+        <div class="section9Variants">
+          <span>Q3-Q4</span>
+          <div class="section9Photos" id="variant3">
           </div>
-          <div class="form-group">
-            <label for="webcite">Ваш сайт*</label>
-            <input type="text" class="form-control" name="website" id="website">
-          </div>
-          <button type="submit" class="submitButton" name="button">Отправить заявку</button>
-          <p>
-            * Важно заполнение всех полей. Это позволит нам быть более полезными  для Вас  и сохранит наше с Вами время.
-          </p>
-        </form>
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="section8">
-    <div class="section8-firstDiv">
-      <h3>
-        Станьте нашим партнером
-      </h3>
-      <span>
-        И начните зарабатывать больше
-      </span>
-      <button type="button" name="button"> Подробнее</button>
-    </div>
-    <div class="section8SecondDiv">
-      <div class="section8Img">
-        <img src="img/R.png" alt="">
+      <div class="section9ThirdDiv" id="forVariant1">
+        <p>Предварительный старт компании</p>
+        <p>Запуск инвестиционного отдела</p>
+        <p>Формирование партнерской сети и комьюнити LiT</p>
+        <p>Запуск разработки собственных продуктов компании</p>
+        <p>Формирование акционерного общества и реализация VIP пакетов компании</p>
       </div>
-      <div class="marginLeftMin120px margin-top40px">
-        <span class="section8SecondDivSpan revealator-slideright revealator-once revealator-partially-below">E</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay2 revealator-once revealator-partially-below">S</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay3 revealator-once revealator-partially-below">I</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay4 revealator-once revealator-partially-below">D</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay5 revealator-once revealator-partially-below">E</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay6 revealator-once revealator-partially-below">N</span>
-        <span class="section8SecondDivSpan revealator-slideright revealator-delay7 revealator-once revealator-partially-below">T</span>
+      <div class="section9ThirdDiv displayNone" id="forVariant2">
+        <p>Запуск консалтинг отдела</p>
+        <p>Запуск стартап отдела</p>
+        <p>Начало отбора стартапов и бизнес проектов под финансирование и инвестирование</p>
+        <p>Запуск образовательных программ</p>
+        <p>Запуск новых продуктов компании и расширение услуг</p>
+        <p>Организация международных ивент проектов компании</p>
       </div>
-    </div>
-  </section>
-  <section class="section9">
-    <h1>Наши цели на 2019 год</h1>
-    <div class="section9MainBlock">
-      <div class="revealator-slideright revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">10000</span>
-        <span class="section9SecondSpan">Довольных клиентов</span>
-      </div>
-      <div class="revealator-slideright revealator-delay2 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">50000</span><span class="section9SecondSpan">Резидентов LIT</span>
-      </div>
-      <div class="revealator-slideright revealator-delay3 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">15</span><span class="section9SecondSpan">Официально открытых нами стран для сотрудничества</span>
-      </div>
-      <div class="revealator-slideright revealator-delay4 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">150+</span><span class="section9SecondSpan">Прведенных обущающих программ</span>
-      </div>
-      <div class="revealator-slideright revealator-delay5 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">10+</span><span class="section9SecondSpan">Организованных ивентов</span>
-      </div>
-      <div class="revealator-slideright revealator-delay6 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">8+</span><span class="section9SecondSpan">реализованных собственных проектов</span>
-      </div>
-      <div class="revealator-slideright revealator-delay7 revealator-once revealator-partially-below">
-        <span class="section9FirstSpan">100+</span><span class="section9SecondSpan">Запущенных стартапа</span>
-      </div>
-    </div>
-    <div class="section9SecondDiv">
-    <div class="section9Variants">
-      <span>Q1</span>
-      <div class="secondPhoto" id="variant1">
-      </div>
-    </div>
-    <div class="section9Variants" id="variant2">
-      <span>Q2</span>
-      <div class="section9Photos">
-      </div>
-    </div>
-    <div class="section9Variants" id="variant3">
-      <span>Q3-Q4</span>
-      <div class="section9Photos">
-      </div>
-    </div>
-    </div>
-    <div class="section9ThirdDiv">
-      <p>Предварительный старт компании</p>
-      <p>Запуск инвестиционного отдела</p>
-      <p>Формирование партнерской сети и комьюнити LiT</p>
-      <p>Запуск разработки собственных продуктов компании</p>
-      <p>Формирование акционерного общества и реализация VIP пакетов компании</p>
-    </div>
-  </section>
+    </section>
+  </div>
   <footer>
     <div class="footerFirstDiv">
       <div class="footerABlocks">
@@ -458,25 +558,25 @@
         <a href="">Образование</a>
       </div>
       <div class="footerLogoAndPhone">
-        <div class="footerLogo"><img src="img/logo-new-concept-last2.png" alt=""></div>
-        <div class="">
-          <div class="">
-            <img src="" alt="">
+        <a href="" class="footerLogo"><img src="img/logo.png" alt=""></a>
+        <div class="phone">
+          <div class="iconPhone">
+            <img src="img/phone-receiver.png" alt="">
           </div>
           <a href="tel:380-123-45-67">+380-123-45-67</a>
         </div>
       </div>
     </div>
-    <div>
-      <div>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+    <div class="footerSecondDiv">
+      <div class="socialNet">
+        <a href=""><img src="img/facebook-logo-key.png" alt=""></a>
+        <a href=""><img src="img/telegram.png" alt=""></a>
+        <a href=""><img src="img/linked-in-logo-key.png" alt=""></a>
+        <a href=""><img src="img/instagram.png" alt=""></a>
       </div>
-      <div>
-        <div class="">
-          <img src="" alt="">
+      <div class="footerEmail">
+        <div class="emailPhoto">
+          <img src="img/email-envelope.png" alt="">
         </div>
         <a href="mailto:lemondresser@gmail.com">lemondresser@gmail.com</a>
 
