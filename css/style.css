@@ -28,6 +28,11 @@
   src: url(../fonts/Nexa-Bold.otf);
 }
 
+@font-face {
+  font-family: NexaLight;
+  src: url(../fonts/Nexa-Light.otf);
+}
+
 .carousel-control-next, .carousel-control-prev {
   width: 10% !important;
 }
@@ -257,8 +262,9 @@ h2 {
 .section8 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 1390px;
+  height: 400px;
   margin: 0 auto;
   background-image: linear-gradient(to right, #F8F3F6, #EADDED);
   box-shadow: 9px 9px 80px -3px rgba(202,202,202,1);
@@ -388,6 +394,7 @@ h2 {
   font-family: RalewayMedium;
   font-size: 17px;
   color: #444444;
+  border: none !important
 }
 
 
@@ -600,7 +607,8 @@ input[type="radio"] {
 
 .section8-firstDiv h3{
   font-family: RalewayBold;
-  font-size: 45px;
+  font-size: 65px;
+  width: 500px;
   color: #4B4B4B;
 }
 
@@ -608,15 +616,35 @@ input[type="radio"] {
   font-family: RalewayRegular;
   font-size: 20px;
   color: #585858;
+  margin-bottom: 40px;
 }
 
-.marginLeftMin100px {
-  margin-left: -100px;
+.section8-firstDiv button{
+  background-image: linear-gradient(to left,#C9B4DA,#BBA7CC);
+  height: 60px;
+  width: 200px;
+  color: #FFFFFF;
+  font-family: RalewayBold;
+  font-size: 17px;
+  box-shadow: 14px 14px 125px -17px rgba(194,169,215,1);
+  border: none !important;
+  outline: none !important;
+}
+
+.marginLeftMin120px {
+  margin-left: -120px;
 }
 
 .section8SecondDiv {
   display: flex;
   align-items: center;
+}
+
+.section8SecondDivSpan{
+  font-family: NexaLight;
+  font-size: 50px;
+  color: #585858;
+  opacity: 0.75;
 }
 
 .section9MainBlock {
@@ -629,6 +657,58 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 300px;
+}
+
+.section9FirstSpan{
+  font-family: NexaBold;
+  font-size: 50px;
+  color: #4C597D;
+}
+
+.section9SecondSpan{
+  font-family: RalewayRegular;
+  font-size: 20px;
+  color: #4F4F4F;
+  text-align: center;
+}
+
+.section9SecondDiv{
+  background-image: url("../img/bigLine.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section9Variants{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.section9Photos{
+  background-image: url(../img/hexagon.png);
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.secondPhoto{
+  background-image: url(../img/hexagonWithLine.png);
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dislayNone{
+  display: none;
 }
 
 .section9ThirdDiv {

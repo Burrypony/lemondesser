@@ -29,4 +29,5 @@ $(document).ready(function () {
     $('#startaper').removeClass("section7BlocksHover"),
     $('#expert').addClass("section7BlocksHover");
   });
+  $('#variant1').css('background-image' ,'url(img/hexagonWithLine.png)')
 });
