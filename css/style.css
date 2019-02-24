@@ -69,8 +69,12 @@ header {
   width: 75%;
 }
 
-.section2{
+.section2 {
   padding-top: 110px;
+}
+
+.section2::before{
+  content: url('../img/bigArrow.png')
 }
 
 .section3 h1 {
@@ -307,35 +311,35 @@ header {
   height: 100%;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   border-radius: 50%;
   width: 20px !important;
   height: 20px !important;
   background-color: #4F4F4F !important;
 }
 
-.sliderSettings{
+.sliderSettings {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
 }
 
-.sliderSettings h1{
+.sliderSettings h1 {
   font-family: RalewayExtraBold;
   font-size: 60px;
   color: #4F4F4F;
   text-align: left;
 }
 
-.sliderSettings h3{
+.sliderSettings h3 {
   font-family: RalewayRegular;
   font-size: 30px;
   color: #4F4F4F;
   text-align: left;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   z-index: 10 !important;
 }
 
@@ -404,7 +408,7 @@ header {
   align-items: center;
 }
 
-.section4{
+.section4 {
   margin-top: 150px;
 }
 
@@ -436,7 +440,7 @@ header {
   width: 100%;
 }
 
-.section6{
+.section6 {
   margin-top: 200px;
 }
 
@@ -483,6 +487,10 @@ header {
   margin-top: 60px;
 }
 
+.radioButtonVorder {
+  border: 2px solid #7A7A7A;
+}
+
 .margin-bottom31px {
   margin-bottom: 31px;
 }
@@ -503,6 +511,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section6-blocks span {
+  text-align: center;
+}
+
+.margin-top-85px {
+  margin-top: 85px;
 }
 
 .big-numbers {
@@ -545,7 +561,7 @@ header {
   justify-content: space-between;
 }
 
-.submitButton {
+.submitButton, .submitButtonStartaper, .submitButtonExpert {
   background-image: linear-gradient(to left, #90DEC5, #ACDE95);
   height: 60px;
   width: 240px;
@@ -553,6 +569,14 @@ header {
   font-size: 17px;
   color: #444444;
   border: none !important
+}
+
+.submitButtonStartaper {
+  background-image: linear-gradient(to right, #EBDA6A, #F3EDB1);
+}
+
+.submitButtonExpert {
+  background-image: linear-gradient(to right, #FFA5A1, #F8B99D);
 }
 
 .section7-form {
@@ -585,19 +609,30 @@ header {
   margin-top: 100px;
 }
 
-.section5{
+
+.section5 {
   margin-top: 250px;
 }
 
 #pirpleTriangle {
-  background-image: url(../img/Pirple.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 82px;
+  margin-left: 308px;
 }
 
-#pirpleTriangle:hover{
+#pirpleTriangle img {
+  width: 500px;
+  margin-bottom: -36px;
+  position: absolute;
+  top: -60px;
+  left: 3px;
+}
+
+#pirpleTriangle img:last-child{
+  display: none;
+}
+
+#pirpleTriangle:hover {
   background-image: url(../img/purpleWithBlack.png);
 }
 
@@ -605,21 +640,31 @@ header {
   content: "Резиденты LIT";
   left: 105px;
   position: absolute;
-  top: -20px;
+  top: -60px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
 }
 
 #blueTriangle {
-  background-image: url(../img/blue.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 77px;
+  margin-left: 420px;
+  margin-top: -77px;
 }
 
-#blueTriangle:hover{
+#blueTriangle img {
+  width: 390px;
+  position: absolute;
+  top: -25px;
+  left: 390px;
+}
+
+#blueTriangle img:last-child{
+  display: none;
+}
+
+#blueTriangle:hover {
   background-image: url(../img/blueWithBlack.png);
 }
 
@@ -634,14 +679,24 @@ header {
 }
 
 #greenTriangle {
-  background-image: url(../img/green.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 85px;
+  margin-left: 462px;
+  margin-top: 11px;
 }
 
-#greenTriangle:hover{
+#greenTriangle img{
+  width: 470px;
+  position: absolute;
+  top: 45px;
+  left: 400px;
+}
+
+#greenTriangle img:last-child{
+  display: none;
+}
+
+#greenTriangle:hover {
   background-image: url(../img/greenWithBlack.png);
 }
 
@@ -656,14 +711,24 @@ header {
 }
 
 #yellowTriangle {
-  background-image: url(../img/yellow.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 87px;
+  margin-left: 425px;
+  margin-top: 5px;
 }
 
-#yellowTriangle:hover{
+#yellowTriangle img{
+  width: 411px;
+  position: absolute;
+  top: 148px;
+  left: 384px;
+}
+
+#yellowTriangle img:last-child{
+  display: none;
+}
+
+#yellowTriangle:hover {
   background-image: url(../img/yellowWithBlack.png);
 }
 
@@ -678,14 +743,24 @@ header {
 }
 
 #peachTriangle {
-  background-image: url(../img/peach.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 100px;
+  margin-left: 305px;
+  margin-top: -92px;
 }
 
-#peachTriangle:hover{
+#peachTriangle img{
+  width: 405px;
+  position: absolute;
+  top: 146px;
+  left: 46px;
+}
+
+#peachTriangle img:last-child{
+  display: none;
+}
+
+#peachTriangle:hover {
   background-image: url(../img/peachWithBlack.png);
 }
 
@@ -700,15 +775,30 @@ header {
 }
 
 #pinkTriangle {
-  background-image: url(../img/pink.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 385px;
+  width: 89px;
+  height: 68px;
+  cursor: pointer;
+  position: absolute;
+  top: 106px;
+  left: 300px;
 }
 
-#pinkTriangle:hover{
-  background-image: url(../img/pirpleWithBlack.png);
+#pinkTriangle img{
+  width: 405px;
+  position: absolute;
+  top: -45px;
+  left: -282px;
+}
+
+#pinkTriangle img:last-child{
+  display: none;
+}
+
+#pinkTriangle:hover #pinkTriangle img:last-child{
+  display: block !important;
+}
+#pinkTriangle:hover #pinkTriangle img:first-child{
+  display: none !important;
 }
 
 
@@ -724,7 +814,7 @@ header {
 
 .raleway50R {
   font-family: RalewayRegular;
-  font-size: 50px !important ;
+  font-size: 50px !important;
 }
 
 .color686868 {
@@ -836,7 +926,7 @@ input[type="radio"]+label span {
   display: inline-block;
   width: 19px;
   height: 19px;
-  margin: 70px 65px 0 0;
+  margin: 120px 65px 0 0;
   vertical-align: middle;
   cursor: pointer;
   border-radius: 50%;
@@ -851,6 +941,10 @@ input[type="radio"] {
   color: #ffffff;
 }
 
+.firstFormEmployer+label p {
+  border: 2px solid #7A7A7A;
+}
+
 .firstFormEmployer:checked+label span {
   background-color: #464646;
 }
@@ -858,6 +952,7 @@ input[type="radio"] {
 .firstFormEmployer:checked+label p {
   background-image: linear-gradient(to right, #A0DFBB, #ACDE95);
   box-shadow: 13px 12px 80px -3px rgba(136, 214, 133, 0.5);
+  border: none;
 }
 
 .firstFormEmployer+label span,
@@ -867,6 +962,90 @@ input[type="radio"] {
 
 .firstFormEmployer+label span,
 .firstFormEmployer:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormInvestor+label span {
+  color: #ffffff;
+}
+
+.firstFormInvestor+label p {
+  border: 2px solid #7A7A7A;
+}
+
+.firstFormInvestor:checked+label span {
+  background-color: #464646;
+}
+
+.firstFormInvestor:checked+label p {
+  background-image: linear-gradient(to right, #F1C094, #F1CC82);
+  box-shadow: 13px 12px 80px -3px #FFA600;
+  border: none;
+}
+
+.firstFormInvestor+label span,
+.firstFormInvestor:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormInvestor+label span,
+.firstFormInvestor:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormStartaper+label span {
+  color: #ffffff;
+}
+
+.firstFormStartaper+label p {
+  border: 2px solid #7A7A7A;
+}
+
+.firstFormStartaper:checked+label span {
+  background-color: #464646;
+}
+
+.firstFormStartaper:checked+label p {
+  background-image: linear-gradient(to right, #EBDA6A, #F3EDB1);
+  box-shadow: 13px 12px 80px -3px #DAD196;
+  border: none;
+}
+
+.firstFormStartaper+label span,
+.firstFormStartaper:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormStartaper+label span,
+.firstFormStartaper:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormExpert+label span {
+  color: #ffffff;
+}
+
+.firstFormExpert+label p {
+  border: 2px solid #7A7A7A;
+}
+
+.firstFormExpert:checked+label span {
+  background-color: #464646;
+}
+
+.firstFormExpert:checked+label p {
+  background-image: linear-gradient(to right, #FFA5A1, #F8B99D);
+  box-shadow: 13px 12px 80px -3px #F8BBA6;
+  border: none;
+}
+
+.firstFormExpert+label span,
+.firstFormExpert:checked+label span {
+  transition: background-color 0.4s linear;
+}
+
+.firstFormStartaper+label span,
+.firstFormStartaper:checked+label span {
   transition: background-color 0.4s linear;
 }
 
@@ -877,17 +1056,17 @@ input[type="radio"] {
 
 .labelForm p {
   width: 830px;
-  height: 170px;
+  height: 250px;
   display: flex;
   align-items: center;
   padding: 80px;
 }
 
 .litRegistration {
-  background-image: linear-gradient(to right, #557AA8, #7AA0D3, #82A9DC);
+  background-image: linear-gradient(to right, #ACDE95, #90DEC5);
   width: 170px;
   height: 40px;
-  color: white;
+  color: #5F5F5F;
   font-family: RalewayBold;
   font-size: 15px;
   border: none !important;
@@ -1181,4 +1360,62 @@ footer {
   color: #4F535E;
   margin-left: 10px;
   text-decoration: none !important;
+}
+
+.labelCheckbox {
+  display: flex;
+  color: #333333;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  width: 300px;
+}
+
+.labelCheckbox span {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  width: 30px;
+  height: 25px;
+  transform-origin: center;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  vertical-align: -6px;
+  margin-right: 65px;
+}
+
+.labelCheckbox p {
+  border: 2px solid #7A7A7A;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked+label span {
+  background-color: #707070;
+}
+
+input[type="checkbox"]:hover {
+  span {
+    background-color: #fff;
+  }
+}
+
+.btn-secondary {
+  width: 100% !important;
+  background-color: white !important;
+  border: none !important;
+  border-bottom: 1px solid #ced4da !important;
+  border-radius: 25px;
+  color: #585858 !important;
+}
+
+.form-group button:hover {
+  background-color: white !important;
+  outline: none !important;
+  border: none !important;
 }
