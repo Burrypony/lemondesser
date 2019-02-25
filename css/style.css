@@ -59,7 +59,7 @@ body, html {
 }
 
 header {
-  height: 150px;
+  height: 130px;
 }
 
 .section2 h1 {
@@ -67,25 +67,35 @@ header {
   font-size: 60px !important;
   text-align: center;
   width: 75%;
+  z-index: 1;
 }
 
 .section2 {
   padding-top: 110px;
+  display: relative;
+  z-index: 0;
 }
 
-/* .section2::before{
-  content: url('../img/bigArrow.png')
-} */
+ .section2::before{
+  content: url('../img/bigArrow.png');
+  position: absolute;
+  left: -278px;
+  top: 950px;
+}
+
+
 
 .section3 h1 {
   font-family: RalewayBold;
   font-size: 60px !important;
   margin-bottom: 130px;
+  z-index: 1;
 }
 
 .section4 h1 {
   font-family: RalewayBold;
   font-size: 60px !important;
+  z-index: 1;
 }
 
 .section5 h1 {
@@ -349,6 +359,7 @@ header {
   cursor: pointer;
   margin-top: 30px;
   margin-bottom: 100px;
+  z-index: 1;
 }
 
 .videoButton img {
@@ -380,7 +391,7 @@ header {
 
 .section3-blocks, .section5-blocks span {
   text-align: center;
-  width: 170px;
+  width: 200px;
 }
 
 .section5-blocks span {
@@ -401,6 +412,19 @@ header {
   justify-content: space-around;
   width: 80%;
 }
+geometric2
+
+.section3::before{
+  content:"";
+  background:url("../img/geometric2.png");
+  repeat:no-repeat;
+}
+
+.section3photo{
+  position: absolute;
+width: 600px;
+left: -250px;
+}
 
 .section2, .section3, .section4, .section5, .section6, .section7, .section9 {
   display: flex;
@@ -411,6 +435,8 @@ header {
 .section4 {
   margin-top: 150px;
 }
+
+
 
 .section8 {
   display: flex;
@@ -545,10 +571,12 @@ header {
 
 .section7-blocks:hover {
   box-shadow: 0 0 15px #CFCFCF;
+  background-image: linear-gradient(to right, #E6E6E6, #E6E6E6);
 }
 
 .section7BlocksHover {
   box-shadow: 0 0 15px #CFCFCF;
+  background-image: linear-gradient(to right, #E6E6E6, #E6E6E6);
 }
 
 .section7-blocks span {
@@ -559,6 +587,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 100px 0;
 }
 
 .submitButton, .submitButtonStartaper, .submitButtonExpert {
@@ -644,6 +673,8 @@ header {
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
+  cursor: pointer;
+  z-index: 2;
 }
 
 #blueTriangle {
@@ -670,12 +701,14 @@ header {
 
 #blueTriangle::before {
   content: "Образование";
-  right: 140px;
+  right: 170px;
   position: absolute;
-  top: -18px;
+  top: -49px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
+  cursor: pointer;
+  z-index: 2;
 }
 
 #greenTriangle {
@@ -690,24 +723,37 @@ header {
   position: absolute;
   top: 45px;
   left: 400px;
+  z-index: 1
 }
 
-#greenTriangle img:last-child{
+.secondPhotoSection4{
   display: none;
-}
-
-#greenTriangle:hover {
-  background-image: url(../img/greenWithBlack.png);
 }
 
 #greenTriangle::before {
   content: "Предприниматели";
-  right: 30px;
+  right: 50px;
   position: absolute;
-  top: 170px;
+  top: 119px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
+  cursor: pointer;
+  z-index: 2
+}
+
+#greenTriangle:hover::before #greenTriangle.secondPhotoSection4  {
+  display: block;
+  z-index: 3;
+}
+
+#greenTriangle:hover::before #greenTriangle.firstPhoto  {
+  display: none !important ;
+  z-index: 0;
+}
+
+.#greenTriangle:hover::before body{
+display: none !important;
 }
 
 #yellowTriangle {
@@ -734,12 +780,14 @@ header {
 
 #yellowTriangle::before {
   content: "Стартаперы";
-  right: 200px;
+  right: 206px;
   position: absolute;
-  bottom: 25px;
+  bottom: -30px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
+  cursor: pointer;
+  z-index: 2;
 }
 
 #peachTriangle {
@@ -768,16 +816,17 @@ header {
   content: "Инвесторы";
   left: 100px;
   position: absolute;
-  bottom: 50px;
+  bottom: -7px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
+  cursor: pointer;
+  z-index: 2;
 }
 
 #pinkTriangle {
   width: 89px;
   height: 68px;
-  cursor: pointer;
   position: absolute;
   top: 106px;
   left: 300px;
@@ -804,9 +853,9 @@ header {
 
 #pinkTriangle::before {
   content: "Эксперты";
-  left: 70px;
+  left: -210px;
   position: absolute;
-  bottom: 220px;
+  bottom: 57px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
@@ -1063,14 +1112,18 @@ input[type="radio"] {
 }
 
 .litRegistration {
-  background-image: linear-gradient(to right, #ACDE95, #90DEC5);
+  background-image: linear-gradient(to left, #82A9DC, #557AA8);
   width: 170px;
   height: 40px;
-  color: #5F5F5F;
+  color: #FFFFFF;
   font-family: RalewayBold;
   font-size: 15px;
   border: none !important;
   outline: none !important;
+}
+
+.marginTop50px{
+  margin-top: 50px;
 }
 
 .section8Img {
