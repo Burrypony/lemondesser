@@ -69,13 +69,21 @@ $(document).ready(function() {
     $('.collapse.in').toggleClass('in');
   });
 
-  function AllowZoom(flag) {
-  if (flag == true) {
-    $('head meta[name=viewport]').remove();
-    $('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10.0, minimum-scale=1, user-scalable=1" />');
-  } else {
-    $('head meta[name=viewport]').remove();
-    $('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />');
+  var metas = document.getElementsByTagName('meta');
+  var i;
+  if (navigator.userAgent.match(/iPhone/i)) {
+  	for (i=0; i<metas.length; i++) {
+  		if (metas[i].name == "viewport") {
+  			metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+  		}
+  	}
+  	document.getElementsByTagName('body')[0].addEventListener("gesturestart", gestureStart, false);
   }
-}
+  function gestureStart() {
+  	for (i=0; i<metas.length; i++) {
+  		if (metas[i].name == "viewport") {
+  			metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+  		}
+  	}
+  }
 });
