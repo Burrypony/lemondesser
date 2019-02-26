@@ -59,7 +59,7 @@ body, html {
 }
 
 header {
-  height: 130px;
+  height: 100px;
 }
 
 .section2 h1 {
@@ -122,6 +122,8 @@ header {
 .section9 h1 {
   font-family: RalewayBold;
   font-size: 60px !important;
+  margin-top: 150px;
+  margin-bottom: 75px
 }
 
 .section4 h2 {
@@ -134,7 +136,7 @@ header {
 }
 
 .header-logo img {
-  width: 100%;
+  width: 75%;
 }
 
 .animated-icon3 {
@@ -270,7 +272,7 @@ header {
 }
 
 .section1 {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .third-button {
@@ -278,6 +280,7 @@ header {
   background-color: transparent;
   outline: none !important;
   margin-right: 100px;
+  margin-bottom: 15px;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -891,9 +894,12 @@ display: none !important;
 
 .raleway72B {
   font-family: RalewayBold;
-  font-size: 72px !important;
+  font-size: 60px !important;
   color: #585858;
+  margin-bottom: 30px;
 }
+
+
 
 .raleway25 {
   font-family: RalewayLight;
@@ -965,6 +971,11 @@ display: none !important;
   border-left: none !important;
   border-top: none !important;
   border-right: none !important;
+  background-color:transparent !important;
+}
+
+.form-control:active{
+  background-color:transparent !important;
 }
 
 input[type="radio"] {
@@ -975,11 +986,31 @@ input[type="radio"]+label span {
   display: inline-block;
   width: 19px;
   height: 19px;
-  margin: 120px 65px 0 0;
+  margin: 7% 65px 0 0;
   vertical-align: middle;
   cursor: pointer;
   border-radius: 50%;
   border: 2px solid #464646;
+}
+
+.section7{
+  margin-bottom: 150px;
+}
+
+#dotForInv{
+  margin-top: 110px !important;
+}
+
+#dotForStar{
+  margin-top: 40px !important;
+}
+
+#dotForExp1{
+  margin-top: 40px !important;
+}
+
+#dotForExp2{
+  margin-top: 20px !important;
 }
 
 input[type="radio"] {
@@ -1105,10 +1136,11 @@ input[type="radio"] {
 
 .labelForm p {
   width: 830px;
-  height: 250px;
+  height: fit-content;
   display: flex;
   align-items: center;
-  padding: 80px;
+  padding: 10px;
+  padding-right: 125px;
 }
 
 .litRegistration {
@@ -1471,4 +1503,10 @@ input[type="checkbox"]:hover {
   background-color: white !important;
   outline: none !important;
   border: none !important;
+}
+
+@media screen and (max-width:1550px){
+  body{
+    zoom:0.6;
+  }
 }
