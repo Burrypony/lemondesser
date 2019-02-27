@@ -53,6 +53,9 @@
     height: 1000vw !important;
     color: red !important
   }
+  .sliderButton{
+    width: 250px !important;
+  }
 }
 
 
