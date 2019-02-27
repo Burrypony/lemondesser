@@ -412,6 +412,12 @@ header {
   height: 130px;
 }
 
+.section3-blocks:hover img,
+.section3-blocks:hover~img {
+  width: 130px;
+  height: 130px;
+}
+
 .section3-blocks, .section5-blocks span {
   text-align: center;
   width: 200px;
@@ -1577,4 +1583,383 @@ svg .button{
 .peachA{
   left: 315px;
   top: 188px;
+}
+
+.section1Rez{
+  height: 790px;
+  position: relative;
+  background-image: url(../img/rezFirstPick.svg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1Rez span{
+  margin: 0 auto;
+}
+
+
+.section1RezText{
+  z-index: 3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+}
+
+.section2Rez{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.section2Rez h3{
+  width: 590px;
+  text-align: right;
+  font-family: RalewayRegular;
+  font-size: 25px;
+}
+
+
+.section2Rez img{
+  width: 500px;
+}
+
+.section3RezText{
+  display: flex;
+}
+
+
+.section3RezText h1{
+  width: 75%;
+  margin: 0 auto 130px;
+}
+
+.section3Rez-blocks img{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+
+
+.section3Rez-main-block{
+  width: 820px !important;
+}
+
+.section3RezBlockSpan{
+  width: 250px;
+}
+
+.section3Rez-main-block{
+  margin: 25px 0px;
+}
+
+.section4MainBlockText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.section4MainBlock{
+  display: flex;
+  width: 75%;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.section4MainBlock img{
+  width: 540px;
+  height: 500px;
+}
+
+.section4BoldSpan{
+  font-family: RalewayBold;
+  font-size: 20px;
+  color: #4F4F4F;
+}
+
+.section4regularSpan{
+  font-family: RalewayRegular;
+  font-size: 20px;
+  color: #4F4F4F;
+}
+
+.section4Rez h3{
+  width: 1400px;
+  text-align: center;
+  font-family: RalewayRegular;
+  font-size: 35px;
+  color: #7C7C7C;
+  margin-bottom: 140px;
+}
+
+.sectionTextBlocks{
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.sectionTextBlocks::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #DCAFE5;
+  position: absolute;
+  left: -45px;
+}
+
+.sectionTextBlocks1::before{
+  top: 65px;
+}
+
+.sectionTextBlocks2::before{
+  top: 45px;
+}
+
+.sectionTextBlocks3::before{
+  top: 90px;
+}
+
+.lastTextBlock{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.lastTextBlock span{
+  font-family: RalewayRegular;
+  font-size: 20px;
+  color: #4F4F4F;
+}
+
+.sectionTextBlocks h4{
+  font-family: RalewayBold;
+  font-size: 25px;
+  color: #4F4F4F;
+}
+
+.section5RezPhoto{
+  width: 1500px;
+}
+
+.section5RezPhoto img{
+  width: 100%;
+}
+
+.position5Rez{
+  position: relative;
+}
+
+.section5DivText{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section5DivText1{
+  top: 365px;
+  right: 292px;
+  width: 385px;
+}
+
+.section5DivText2{
+  top: 505px;
+  right: 208px;
+  width: 385px;
+}
+
+.section5DivText3{
+  top: 655px;
+  right: 185px;
+  width: 485px;
+}
+
+.section5DivText4{
+  top: 675px;
+  right: 730px;
+  width: 165px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section5DivText5{
+  top: 600px;
+  right: 957px;
+  width: 461px;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+.section5DivText5 span:first-child{
+  margin-left: 20px;
+}
+
+.section5DivText6{
+  top: 450px;
+  right: 1030px;
+  width: 440px;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+.section5DivText6 span:first-child{
+  margin-left: 20px;
+}
+
+.section5DivText7{
+  top: 320px;
+  right: 965px;
+  width: 440px;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+
+.section5DivText7 span:first-child{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.section5DivTextFirstSpan{
+  font-family: RalewayMedium;
+  font-size: 25px;
+  color: #727272;
+  margin-right: 15px;
+}
+
+.section5DivTextSecondSpan{
+  font-family: RalewayMedium;
+  font-size: 20px;
+  color: #4F4F4F;
+}
+
+.section6Rez{
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(to right, #DDB9E2, #ECDBEE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section6Rez h1{
+  text-align: left;
+  width: 437px;
+  margin-left: 180px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1040px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form .form-group{
+  width: 250px;
+  margin: 0 15px;
+}
+
+.form .form-control{
+  border-bottom: 1px solid #707070;
+}
+
+.form .form-group label{
+  color: #585858;
+}
+
+.section7Rez{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px 0;
+}
+
+.section7Rez h1{
+  text-align: center;
+  font-family: RalewayBold;
+  font-size: 70px;
+  color: #464646;
+  margin-bottom: 30px;
+}
+
+.section7Rez h2{
+  text-align: center;
+  font-family: RalewayRegular;
+  font-size: 45px;
+  color: #464646;
+  margin-bottom: 30px;
+}
+
+.section8Rez{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section8Rez h1{
+  font-family: RalewayBold;
+  font-size: 60px;
+  color:#464646;
+  text-align: center;
+  width: 1300px;
+  margin-bottom: 30px;
+}
+
+.section8Rez h2{
+  font-family: NexaLight;
+  font-size: 60px;
+  color: #6B5986;
+  border: 4px solid #D3B2EE;
+  padding-top: 20px;
+}
+
+.section8Rez-main-block{
+  width: 1300px !important;
+}
+
+.section8Rez-blocks img{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.section8Rez-blocks{
+  width: 250px;
+  margin: 50px;
+}
+
+.section8Rez-main-block{
+  width: 1300px;
+}
+
+.section9Rez{
+  margin-top: 150px;
+}
+
+.section9RezText p{
+  font-family: RalewayBold;
+  font-size: 52px;
+  color: #4B4B4B;
+  width: 770px;
+}
+
+.RezBackground{
+  background-image: linear-gradient(#F0E7E7, #DCDFEF, #EEE5DA);
+  padding-bottom: 150px;
 }
