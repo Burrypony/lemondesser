@@ -54,7 +54,10 @@ $(document).ready(function() {
   $('#variant3').on('click', function() {
     $('#variant3').addClass("secondPhoto"),
       $('#variant2').removeClass("secondPhoto"),
-      $('#variant1').removeClass("secondPhoto")
+      $('#variant1').removeClass("secondPhoto"),
+      $('#forVariant2').addClass("displayNone"),
+      $('#forVariant1').addClass("displayNone"),
+      $('#forVariant3').removeClass("displayNone");
   });
   $('#variant1').on('click', function() {
     $('#variant1').addClass("secondPhoto"),
@@ -68,4 +71,45 @@ $(document).ready(function() {
     $('#sidebar').toggleClass('active');
     $('.collapse.in').toggleClass('in');
   });
+
+  $('.pinkA').hover( function() {
+    $('#pinkSecondTirangle').toggleClass('displayBlock');
+    $('#pinkFirstTirangle').toggleClass('displayNone');
+      console.log("pinkA");
+  });
+
+  $('.pirpleA').hover( function() {
+    $('#pirpleSecondPhoto').toggleClass('displayBlock');
+    $('#pirpleFirstPhoto').toggleClass('displayNone');
+      console.log("pirpleA");
+  });
+
+  $('.blueA').hover( function() {
+    $('#blueSecondPhoto').toggleClass('displayBlock');
+    $('#blueFirstPhoto').toggleClass('displayNone');
+      console.log("BlueA");
+  });
+
+  $('.greenA').hover( function() {
+    $('#greenSecondPhoto').toggleClass('displayBlock');
+    $('#greenFirstPhoto').toggleClass('displayNone');
+      console.log("GreenA");
+  });
+
+  $('.yellowA').hover( function() {
+    $('#yellowSecondPhoto').toggleClass('displayBlock');
+    $('#yellowFirstPhoto').toggleClass('displayNone');
+      console.log("YellowA");
+  });
+
+  $('.peachA').hover( function() {
+    $('#peachSecondPhoto').toggleClass('displayBlock');
+    $('#peachFirstPhoto').toggleClass('displayNone');
+      console.log("PeachA");
+  });
+
+/*  for ( var i = 1 ; i < 7 ; i++ )
+  {
+      document.getElementById( "button" + i ).addEventListener( "click" , function() { console.log( this.id ); } );
+  }*/
 });
