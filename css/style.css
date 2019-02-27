@@ -48,6 +48,11 @@
   body{
     width: 155vw;
   }
+  .modal-backdrop{
+    width: 155vw !important;
+    height: 1000vw !important;
+    color: red !important
+  }
 }
 
 
