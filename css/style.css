@@ -695,6 +695,10 @@ left: -250px;
   z-index: 2;
 }
 
+.pirpleBeforeHover::before{
+  top: -73px !important;
+}
+
 #blueTriangle {
   width: 89px;
   height: 77px;
@@ -724,6 +728,10 @@ left: -250px;
   color: #585858;
   cursor: pointer;
   z-index: 2;
+}
+
+.blueBeforeHover::before{
+  top: -60px !important;
 }
 
 #greenTriangle {
@@ -799,7 +807,7 @@ display: none !important;
   content: "Стартаперы";
   right: 206px;
   position: absolute;
-  bottom: -5px;
+  bottom: -30px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
@@ -831,7 +839,7 @@ display: none !important;
   content: "Инвесторы";
   left: 100px;
   position: absolute;
-  bottom: 16px;
+  bottom: -6px;
   font-family: RalewaySemiBold;
   font-size: 35px;
   color: #585858;
@@ -853,6 +861,8 @@ display: none !important;
   top: -43px;
   left: -280px;
 }
+
+
 
 .displayBlock{
   display: block !important;
@@ -1525,6 +1535,10 @@ svg .button:hover
 
 svg .button{
   margin: 10px;
+}
+
+.pinkA:hover #pinkTriangle::before{
+  top: -55px;
 }
 
 .pinkA, .pirpleA, .blueA, .greenA, .yellowA, .peachA{

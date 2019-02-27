@@ -76,18 +76,21 @@ $(document).ready(function() {
     $('#pinkSecondTirangle').toggleClass('displayBlock');
     $('#pinkFirstTirangle').toggleClass('displayNone');
       console.log("pinkA");
+
   });
 
   $('.pirpleA').hover( function() {
     $('#pirpleSecondPhoto').toggleClass('displayBlock');
     $('#pirpleFirstPhoto').toggleClass('displayNone');
       console.log("pirpleA");
+      $('#pirpleTriangle').toggleClass('pirpleBeforeHover')
   });
 
   $('.blueA').hover( function() {
     $('#blueSecondPhoto').toggleClass('displayBlock');
     $('#blueFirstPhoto').toggleClass('displayNone');
       console.log("BlueA");
+    $('#blueTriangle').toggleClass('blueBeforeHover')
   });
 
   $('.greenA').hover( function() {
