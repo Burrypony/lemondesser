@@ -1591,9 +1591,6 @@ svg .button{
 .section1Rez{
   height: 790px;
   position: relative;
-  background-image: url(../img/rezFirstPick.svg);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1601,8 +1598,12 @@ svg .button{
 
 .section1Rez span{
   margin: 0 auto;
+  z-index: 3;
 }
 
+.rezPhotoMain{
+  position: absolute;
+}
 
 .section1RezText{
   z-index: 3;
@@ -1783,6 +1784,9 @@ svg .button{
 
 .section5RezPhoto{
   width: 1500px;
+  position: relative;
+  top: 220px;
+  right: 80px;
 }
 
 .section5RezPhoto img{
@@ -1791,6 +1795,7 @@ svg .button{
 
 .position5Rez{
   position: relative;
+  height: 1020px;
 }
 
 .position5Rez h2 b{
@@ -2007,4 +2012,9 @@ svg .button{
 .RezBackground{
   background-image: linear-gradient(#F0E7E7, #DCDFEF, #EEE5DA);
   padding-bottom: 150px;
+}
+
+.rezTable{
+  position: absolute;
+
 }
