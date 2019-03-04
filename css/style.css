@@ -2795,31 +2795,33 @@ svg .button{
 }
 
 .checkboxEd input[type="checkbox"]{
-  display: block;
+  display: block !important;
 }
 
 .educationForm{
-  height: 620px;
+  height: 620px !important;
 }
 
 .checkboxEd{
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 50px !important;
 }
 
 .checkboxEd p{
-  width: 356px;
-  margin-bottom: 0;
-  text-align: left;
-  margin-left: 10px;
+  width: 356px !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+  margin-left: 10px !important;
 }
 
 .checkboxEd label{
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .educationForm .submitButton{
-  background-image: linear-gradient(to right,#5C71AC,#BFDAF7);
-  margin: 25px auto;
+  background-image: -webkit-linear-gradient(left, #5C71AC, #BFDAF7) !important;
+  background-image: -o-linear-gradient(left, #5C71AC, #BFDAF7) !important;
+  background-image: linear-gradient(to right, #5C71AC, #BFDAF7) !important;
+  margin: 25px auto !important;
 }
