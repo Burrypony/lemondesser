@@ -2793,3 +2793,33 @@ svg .button{
   color: #5E5E5E;
   width: 260px;
 }
+
+.checkboxEd input[type="checkbox"]{
+  display: block;
+}
+
+.educationForm{
+  height: 620px;
+}
+
+.checkboxEd{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.checkboxEd p{
+  width: 356px;
+  margin-bottom: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.checkboxEd label{
+  margin-bottom: 0;
+}
+
+.educationForm .submitButton{
+  background-image: linear-gradient(to right,#5C71AC,#BFDAF7);
+  margin: 25px auto;
+}
