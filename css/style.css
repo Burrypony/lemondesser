@@ -1748,7 +1748,6 @@ svg .button{
   margin-bottom: 40px;
   position: relative;
 }
-
 .sectionTextBlocks::before{
   content: '';
   display: inline-block;
@@ -1762,16 +1761,52 @@ svg .button{
   left: -45px;
 }
 
-.sectionTextBlocks1::before{
+.section4MainBlockTextRez .sectionTextBlocks1::before{
   top: 65px;
 }
 
-.sectionTextBlocks2::before{
+.section4MainBlockTextRez .sectionTextBlocks2::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #DCAFE5;
+  position: absolute;
+  left: -45px;
   top: 45px;
 }
 
-.sectionTextBlocks3::before{
+.section4MainBlockTextRez .sectionTextBlocks2::after{
+  display: none;
+}
+
+.section4MainBlockTextRez .sectionTextBlocks2{
+  text-align: left;
+}
+
+.section4MainBlockTextRez .sectionTextBlocks3::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  background-color: #DCAFE5;
+  position: absolute;
+  left: -45px;
   top: 90px;
+}
+
+.section4MainBlockTextRez .sectionTextBlocks3::after{
+  display: none;
+}
+
+.section4MainBlockTextRez .sectionTextBlocks3{
+  text-align: left;
 }
 
 .lastTextBlock{
