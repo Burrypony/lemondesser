@@ -1,4 +1,9 @@
-<?if ($_POST['type'] = 'pochtaRezident1') {
-	$msg = "name: ".$_POST['usernameRezident'].'. email:'.$_POST['emailRezident'];
-	mail("kiril.chernysh@gmail.com","My subject",$msg);
-}?>
+<?
+if ($_POST['type'] = 'pochtaRezident1') {
+	$to = "kiril.chernysh@gmail.com";
+	$subject = "Registration";
+	$msg = "name: ".$_POST['name'].'.\n email:'.$_POST['email'];
+	$headers  = "From: testsite < mail@testsite.com >";   //не трогаем
+	mail($to,$subject,$txt,$headers);//не трогаем
+}
+?>
