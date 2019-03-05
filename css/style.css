@@ -38,13 +38,13 @@
   src: url(../fonts/Nexa-Light.otf);
 }
 
-@media screen and (min-width: 1600px ){
+@media screen and (min-width: 1550px ){
   body{
     width: 100%;
   }
 }
 
-@media screen and (min-width: 620px) and (max-width: 1600px ){
+@media screen and (min-width: 620px) and (max-width: 1550px ){
   body{
     width: 155vw;
   }
@@ -2158,6 +2158,26 @@ svg .button{
   right: -45px;
 }
 
+.invPage .sectionTextBlocks1:after, .sectionTextBlocks2:after, .sectionTextBlocks3:after, .sectionTextBlocks4:after{
+  background-color: #F6C5AD;
+}
+
+.invPage .sectionTextBlocks5:before{
+  top: 33px;
+  background-color: #F6C5AD;
+}
+
+.invPage .sectionTextBlocks6:before{
+  top: 35px;
+  background-color: #F6C5AD;
+}
+
+.invPage .sectionTextBlocks7:before{
+  top: 23px;
+  background-color: #F6C5AD;
+}
+
+
 .section3MainBlockTextBiz .sectionTextBlocks1:after{
   top: 7px;
 }
@@ -2990,3 +3010,5 @@ svg .button{
 .forRezidentButton{
   background-image: linear-gradient(to right,#DCB6E0,#E8D5EB);
 }
+
+.invPage .sectionTextBlocks
