@@ -3011,4 +3011,6 @@ svg .button{
   background-image: linear-gradient(to right,#DCB6E0,#E8D5EB);
 }
 
-.invPage .sectionTextBlocks
+.section1Inv{
+  height:563px;
+}
