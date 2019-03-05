@@ -38,13 +38,13 @@
   src: url(../fonts/Nexa-Light.otf);
 }
 
-@media screen and (min-width: 1550px ){
+@media screen and (min-width: 1600px ){
   body{
     width: 100%;
   }
 }
 
-@media screen and (min-width: 620px) and (max-width: 1550px ){
+@media screen and (min-width: 620px) and (max-width: 1600px ){
   body{
     width: 155vw;
   }
