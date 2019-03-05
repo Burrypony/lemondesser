@@ -2860,3 +2860,133 @@ svg .button{
   background-image: linear-gradient(to right, #5C71AC, #BFDAF7) !important;
   margin: 25px auto !important;
 }
+
+.pageForPeople{
+  width: 1320px !important;
+}
+
+.pageForPeople2{
+  width: 1060px !important;
+}
+
+.pageForPeople .section3-blocks img{
+  width: 30px;
+  height: 30px;
+}
+
+.pageForPeople .section3-blocks:hover img{
+  width: 40px;
+  height: 40px;
+}
+
+.pageForPeople2 .section3-blocks img{
+  width: 30px;
+  height: 30px;
+}
+
+.pageForPeople2 .section3-blocks:hover img{
+  width: 40px;
+  height: 40px;
+}
+
+.section1forPeople{
+  height: 500px !important;
+}
+
+.section1forPeople .section1RezText h2{
+  text-align: center;
+}
+
+.forInvestor{
+  background-image: linear-gradient(to right,#FFBC9A,#FFDFCE );
+}
+
+.section3ForPeople .section3RezText h1{
+  margin: 50px auto;
+}
+
+.pageForPeople2 div{
+  margin: 70px auto;
+}
+
+.pageForPeople div{
+  margin: 70px auto;
+}
+
+.forPeopleSection7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forPeopleSection7 p{
+  font-family: RalewayLight;
+  font-size: 24px;
+  color: #585858;
+  width: 606px;
+  margin-left: -135px;
+}
+
+.secondFormForPeople{
+  height: 525px;
+}
+
+.secondFormForPeople p{
+  font-family: RalewayBold;
+  font-size: 20px;
+  color: #585858;
+  width: 270px;
+  margin-top: 15px;
+}
+
+.forInvestorButton{
+  background-image:linear-gradient(to right,#E9B080,#F0CD92 );
+}
+
+.letterLogo img{
+  width: 20%;
+}
+
+.letterLogo{
+  margin-left: 100px;
+}
+
+.letterLogo span{
+  font-family: NexaBold;
+  font-size: 20px;
+  color: #4F535E;
+}
+
+.divWithbuttons{
+  display: flex;
+  align-content: center;
+}
+.headerButtonToMain{
+  height: 50px;
+  border: 3px solid #4F4F4F;
+  margin-top: 3px;
+}
+
+.forStartUp{
+  background-image: linear-gradient(to right,#EEE184,#E9EBAD);
+}
+
+.forStartUpButton{
+  background-image: linear-gradient(to right,#EFE076,#E6E997 );
+}
+
+.forExpert{
+  background-image: linear-gradient(to right,#FF9F9B,#F1C0BF);
+}
+
+.forExpertButton{
+  background-image: linear-gradient(to right,#FF9F9B,#F1C0BF);
+}
+
+.forRezident{
+  background-image: linear-gradient(to right,#DCB6E0,#E8D5EB);
+}
+
+.forRezidentButton{
+  background-image: linear-gradient(to right,#DCB6E0,#E8D5EB);
+}
