@@ -74,6 +74,15 @@
 
 }
 
+@media screen and (max-width: 480px) {
+  .section7-type-client{
+    flex-direction: column;
+  }
+  .section7-form{
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .RezBackground {
     margin-top: -40px !important;
