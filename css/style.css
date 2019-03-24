@@ -562,6 +562,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  body{
+    width: 100vw !important;
+  }
   .section8-firstDiv h3 {
     font-size: 40px !important;
   }
