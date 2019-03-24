@@ -75,10 +75,6 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
-  body {
-    width: 99vw !important;
-  }
-
   .RezBackground {
     margin-top: -40px !important;
   }
@@ -368,6 +364,11 @@ header {
   position: absolute;
   left: -278px;
   top: 0;
+  width: 100%;
+}
+
+.section2PhonPhoto1 img{
+  width: 100%;
 }
 
 .section2PhonPhoto2 {
@@ -960,6 +961,7 @@ geometric2 .section3::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .sliderText {
