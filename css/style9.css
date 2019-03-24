@@ -45,14 +45,12 @@
 }
 
 @media screen and (min-width: 620px) and (max-width: 1589px) {
-  .section7-type-client {
+  .section7-type-client{
     justify-content: center !important;
   }
-
-  .section7-img {
-    width: 190px !important;
+  .section7-img{
+    width: 230px !important;
   }
-
   .modal-backdrop {
     width: 155vw !important;
     height: 1000vw !important;
@@ -63,28 +61,30 @@
     width: 300px !important;
   }
 
-  .section6 {
-    margin-top: 0 !important;
+  .mainPage7PhoneImg img {
+    width: 155vw !important;
   }
-
-  .section8 {
-    width: 100% !important;
-  }
-
-
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1500px) {
+/* @media screen and (min-width: 1366px) {
   body {
-    width: 99vw !important;
+    width: 99vw;
   }
+*/
 
+@media screen and (min-width: 320px) and (max-width: 620px) {
+  body {
+    width: 175vw !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .RezBackground {
-    margin-top: -40px !important;
+    margin-top: -43px !important;
   }
 
   .section1Rez span {
-    padding-bottom: 40px;
+    padding-bottom: 63px;
   }
 
   #sidebar {
@@ -92,235 +92,12 @@
   }
 
   .components {
-    top: -4% !important;
-  }
-
-  .section4BizMainBlocks p {
-    width: 95%;
-    margin: 0 auto;
+    top: 6% !important;
   }
 
   .rezTable {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
+    margin-left: 0 !important;
   }
-
-  .section2BizTextAndPhoto h3:last-child{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section7Biz-main-block {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section4Rez .section4MainBlock{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .position5Rez2 h2 {
-    width: auto !important;
-  }
-
-  .section1Rez {
-    height: 575px !important;
-  }
-
-  .section1Inv {
-    height: 545px !important;
-  }
-
-  .rezPhotoMain {
-    margin-left: -190px;
-  }
-
-  .edPhotoMain {
-    margin-left: -333px;
-  }
-
-  .section1Rez span {
-    margin-bottom: 0 !important;
-  }
-
-  .section6-first-div {
-    width: 100%;
-  }
-
-  #formInvestor {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formStartaper {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formExpert {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formEmployer2{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section2Ex h1{
-    width: 75% !important;
-  }
-
-  .position5Rez2 h2{
-    width: auto !important;
-  }
-
-  .section4Rez h3{
-    width: auto !important;
-  }
-
-  .position5Rez h2{
-    width: auto !important;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-
-  .section2BizTextAndPhoto h3:last-child{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formEmployer2{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section4Rez .section4MainBlock{
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-  .section4BizMainBlocks p {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formInvestor {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formStartaper {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formExpert {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section2Ex h1{
-    width: 75% !important;
-  }
-
-  .position5Rez2 h2{
-    width: auto !important;
-  }
-
-  .section4Rez h3{
-    width: auto !important;
-  }
-
-  .position5Rez h2{
-    width: auto !important;
-  }
-
-  .rezTable {
-    transform: scale(0.6, 0.6);
-    -ms-transform: scale(0.6, 0.6);
-    -webkit-transform: scale(0.6, 0.6);
-    -o-transform: scale(0.6, 0.6);
-    -moz-transform: scale(0.6, 0.6);
-  }
-
-  .bizTable {
-    margin-top: -30px !important;
-  }
-
-  .section1Ed {
-    height: 505px !important;
-  }
-
-  .section1Inv {
-    height: 455px !important;
-  }
-
-  .rezPhotoMain {
-    margin-left: -360px;
-  }
-
-  .components {
-    top: -4% !important;
-  }
-
-  .section1RezSpanRez {
-    padding-bottom: 25px !important;
-  }
-
-  .section6-first-div {
-    width: 100%;
-  }
-}
-
-.section6-second-div {
-  padding-bottom: 60px;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -378,17 +155,17 @@ header {
   z-index: 1
 }
 
-.carousel-item {
+.carousel-item{
   z-index: 2
 }
 
-.phonImage3Inv {
+.phonImage3Inv{
   right: -54px !important;
   top: -1135px !important;
   z-index: 1
 }
 
-.section2PhonPhoto2 img {
+.section2PhonPhoto2 img{
   width: 100%;
 }
 
@@ -425,7 +202,6 @@ header {
   font-family: RalewayBold;
   font-size: 60px !important;
   z-index: 1;
-  text-align: center;
 }
 
 .section4 {
@@ -436,7 +212,6 @@ header {
   font-family: RalewayBold;
   font-size: 60px !important;
   margin-bottom: 100px;
-  text-align: center;
 }
 
 .section5 {
@@ -587,7 +362,7 @@ header {
 
 .components {
   position: absolute;
-  top: 16%;
+  top: 25%;
   left: 25%;
 }
 
@@ -815,6 +590,10 @@ geometric2 .section3::before {
   width: 100%;
 }
 
+.section6 {
+  margin-top: 200px;
+}
+
 .section6-first-div, .section6-second-div {
   display: flex;
   align-items: center;
@@ -914,7 +693,6 @@ geometric2 .section3::before {
   justify-content: center;
   border-radius: 5%;
   margin: 0 40px;
-  align-items: center;
 }
 
 .section7-blocks:hover {
@@ -1276,14 +1054,6 @@ geometric2 .section3::before {
   font-family: RalewayBold;
   font-size: 23px;
   color: #4F4F4F;
-}
-
-#firstInvTable {
-  z-index: 9999999;
-}
-
-.section8Rez-blocksSecond {
-  z-index: 9999999;
 }
 
 .section7FirstDiv {
@@ -1921,7 +1691,7 @@ svg .button {
 }
 
 .section1Rez {
-  height: 538px;
+  height: 790px;
   position: relative;
   width: 100%;
   display: flex;
@@ -2325,7 +2095,7 @@ svg .button {
   justify-content: center;
 }
 
-.formInv {
+.formInv{
   z-index: 5;
 }
 
@@ -2409,7 +2179,6 @@ svg .button {
 .section8Rez-blocks {
   width: 250px;
   margin: 50px;
-  z-index: 2;
 }
 
 .section8Rez-main-block {
@@ -2818,12 +2587,12 @@ svg .button {
   width: 700px;
 }
 
-.section7Inv-main-block img {
+.section7Inv-main-block img{
   width: 300px;
   height: 250px;
 }
 
-.section8Inv-main-block {
+.section8Inv-main-block{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2831,18 +2600,18 @@ svg .button {
   z-index: 2;
 }
 
-.section8Inv-main-block img {
+.section8Inv-main-block img{
   width: 730px;
   height: auto;
   margin-right: 80px;
 }
 
-.section8Inv-main-block .section3-blocks:hover img {
+.section8Inv-main-block .section3-blocks:hover img{
   width: 730px;
   height: auto;
 }
 
-.section7Inv-main-block .section3-blocks:hover img {
+.section7Inv-main-block .section3-blocks:hover img{
   width: 330px;
   height: 270px;
 }
@@ -2941,8 +2710,8 @@ svg .button {
   text-align: center;
 }
 
-.invTable2 {
-  margin-top: 226px;
+.invTable2{
+  margin-top:226px;
 }
 
 .invTable2 .section5DivText8 span {
@@ -2957,40 +2726,39 @@ svg .button {
   position: relative;
 }
 
-.section7InvTables .section7Rez {
+.section7InvTables .section7Rez{
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.section7InvTables {
+.section7InvTables{
   margin-bottom: 0;
   height: fit-content;
 }
 
-.section7InvTablesClose {
+.section7InvTablesClose{
   height: fit-content;
 }
 
-.section7InvTablesClose p {
+.section7InvTablesClose p{
   text-align: left;
-  width: 465px;
-  ;
+  width: 465px;;
   font-size: 25px;
 }
 
-.section7InvTablesClose h2 {
+.section7InvTablesClose h2{
   font-size: 50px;
 }
 
-.section3RezBlockSpan b {
+.section3RezBlockSpan b{
   color: #444444;
 }
 
-.section7Inv1000px {
+.section7Inv1000px{
   height: 1000px;
 }
 
-.section7InvTables p {
+.section7InvTables p{
   font-family: RalewayRegular;
   font-size: 40px;
   color: #6C6C6C;
@@ -3003,7 +2771,7 @@ svg .button {
   text-align: center;
 }
 
-.section7Inv1000px {
+.section7Inv1000px{
   height: 1000px;
 }
 
@@ -3755,11 +3523,11 @@ svg .button {
   height: 500px;
 }
 
-.section7Exp-main-block {
+.section7Exp-main-block{
   width: 1320px !important;
 }
 
-.section2Ex h1 {
+.section2Ex h1{
   font-family: RalewayRegular;
   font-size: 60px;
   color: #464646;
@@ -3767,10 +3535,10 @@ svg .button {
   width: 49%;
 }
 
-.section2Inv h1 {
-  width: 51%;
+.section2Inv h1{
+    width: 51%;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next, .carousel-control-prev{
   z-index: 2 !important;
 }

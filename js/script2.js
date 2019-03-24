@@ -111,6 +111,18 @@ $(document).ready(function() {
       console.log("PeachA");
   });
 
+  $('#firstInvTable').on('click', function(){
+    $("#invTable2").removeClass('dislayNone');
+    $(".invTable2").css("margin-top", "226px");
+    $("#section7InvTables1").addClass("section7Inv1000px");
+  })
+
+  $('#secondInvTable').on('click', function(){
+    $("#invTable3").removeClass('dislayNone');
+    $(".invTable3").css("margin-top", "220px");
+    $("#section7InvTables2").addClass("section7Inv1000px");
+  })
+
 /*  for ( var i = 1 ; i < 7 ; i++ )
   {
       document.getElementById( "button" + i ).addEventListener( "click" , function() { console.log( this.id ); } );

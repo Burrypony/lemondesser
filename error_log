@@ -1,0 +1,159 @@
+[08-Mar-2019 19:18:54 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:18:56 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:18:57 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:19:02 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:19:08 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:10 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:15 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:16 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:17 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:17 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:20:18 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:01 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:02 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:03 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:04 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:05 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:48:13 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:19 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:20 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:21 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:22 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:22 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:22 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:49:22 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:50:37 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:51:35 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/index.php on line 6
+[08-Mar-2019 19:54:11 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/send.php on line 15
+[08-Mar-2019 19:54:51 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/send.php on line 15
+[08-Mar-2019 19:54:59 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/send.php on line 15
+[08-Mar-2019 19:55:21 UTC] PHP Notice:  Undefined index: name in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:55:21 UTC] PHP Notice:  Undefined index: email in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:55:21 UTC] PHP Notice:  Undefined index: tel in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:55:21 UTC] PHP Notice:  Undefined index: webSite in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:55:21 UTC] PHP Notice:  Undefined variable: txt in /home/litconsu/public_html/send.php on line 7
+[08-Mar-2019 19:56:06 UTC] PHP Notice:  Undefined index: name in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:56:06 UTC] PHP Notice:  Undefined index: email in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:56:06 UTC] PHP Notice:  Undefined index: tel in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:56:06 UTC] PHP Notice:  Undefined index: webSite in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:59:02 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home/litconsu/public_html/send.php on line 24
+[08-Mar-2019 19:59:57 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:59:57 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:59:57 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 19:59:57 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:01:53 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:01:53 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:01:53 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:01:53 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:05:07 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:05:07 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:05:07 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:05:07 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: nameStartaper in /home/litconsu/public_html/send.php on line 22
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: emailStartaper in /home/litconsu/public_html/send.php on line 23
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: telStartaper in /home/litconsu/public_html/send.php on line 24
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: projectStartaper in /home/litconsu/public_html/send.php on line 25
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: nameExpert in /home/litconsu/public_html/send.php on line 32
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: emailExpert in /home/litconsu/public_html/send.php on line 33
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: telExpert in /home/litconsu/public_html/send.php on line 34
+[08-Mar-2019 20:08:29 UTC] PHP Notice:  Undefined index: projectExpert in /home/litconsu/public_html/send.php on line 35
+[08-Mar-2019 20:08:30 UTC] PHP Notice:  Undefined index: nameEd2 in /home/litconsu/public_html/send.php on line 42
+[08-Mar-2019 20:08:30 UTC] PHP Notice:  Undefined index: emailEd2 in /home/litconsu/public_html/send.php on line 43
+[08-Mar-2019 20:08:30 UTC] PHP Notice:  Undefined index: telEd2 in /home/litconsu/public_html/send.php on line 44
+[08-Mar-2019 20:08:30 UTC] PHP Notice:  Undefined index: projectEd2 in /home/litconsu/public_html/send.php on line 45
+[08-Mar-2019 20:09:58 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:09:58 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:09:58 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:09:58 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: nameStartaper in /home/litconsu/public_html/send.php on line 22
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: emailStartaper in /home/litconsu/public_html/send.php on line 23
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: telStartaper in /home/litconsu/public_html/send.php on line 24
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: projectStartaper in /home/litconsu/public_html/send.php on line 25
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: nameExpert in /home/litconsu/public_html/send.php on line 32
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: emailExpert in /home/litconsu/public_html/send.php on line 33
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: telExpert in /home/litconsu/public_html/send.php on line 34
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: projectExpert in /home/litconsu/public_html/send.php on line 35
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: nameEd2 in /home/litconsu/public_html/send.php on line 42
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: emailEd2 in /home/litconsu/public_html/send.php on line 43
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: telEd2 in /home/litconsu/public_html/send.php on line 44
+[08-Mar-2019 20:09:59 UTC] PHP Notice:  Undefined index: projectEd2 in /home/litconsu/public_html/send.php on line 45
+[08-Mar-2019 20:14:57 UTC] PHP Notice:  Undefined index: nameInvestor in /home/litconsu/public_html/send.php on line 12
+[08-Mar-2019 20:14:57 UTC] PHP Notice:  Undefined index: emailInvestor in /home/litconsu/public_html/send.php on line 13
+[08-Mar-2019 20:14:57 UTC] PHP Notice:  Undefined index: telInvestor in /home/litconsu/public_html/send.php on line 14
+[08-Mar-2019 20:14:57 UTC] PHP Notice:  Undefined index: projectInvestor in /home/litconsu/public_html/send.php on line 15
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: nameStartaper in /home/litconsu/public_html/send.php on line 22
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: emailStartaper in /home/litconsu/public_html/send.php on line 23
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: telStartaper in /home/litconsu/public_html/send.php on line 24
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: projectStartaper in /home/litconsu/public_html/send.php on line 25
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: nameExpert in /home/litconsu/public_html/send.php on line 32
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: emailExpert in /home/litconsu/public_html/send.php on line 33
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: telExpert in /home/litconsu/public_html/send.php on line 34
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: projectExpert in /home/litconsu/public_html/send.php on line 35
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: nameEd2 in /home/litconsu/public_html/send.php on line 42
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: emailEd2 in /home/litconsu/public_html/send.php on line 43
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: telEd2 in /home/litconsu/public_html/send.php on line 44
+[08-Mar-2019 20:14:58 UTC] PHP Notice:  Undefined index: projectEd2 in /home/litconsu/public_html/send.php on line 45
+[08-Mar-2019 20:19:15 UTC] PHP Notice:  Undefined index: nameEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:19:15 UTC] PHP Notice:  Undefined index: emailEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:19:15 UTC] PHP Notice:  Undefined index: telEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:19:15 UTC] PHP Notice:  Undefined index: webSiteEmployer in /home/litconsu/public_html/send.php on line 5
+[08-Mar-2019 20:32:39 UTC] PHP Notice:  Undefined index: projectExpert in /home/litconsu/public_html/send.php on line 32
+[08-Mar-2019 20:43:11 UTC] PHP Notice:  Undefined index: websiteEmployer2 in /home/litconsu/public_html/send.php on line 50
+[08-Mar-2019 21:02:21 UTC] PHP Notice:  Undefined index: nameRez2 in /home/litconsu/public_html/send.php on line 82
+[08-Mar-2019 21:02:21 UTC] PHP Notice:  Undefined index: emailRez2 in /home/litconsu/public_html/send.php on line 83
+[08-Mar-2019 21:02:21 UTC] PHP Notice:  Undefined index: telRez2 in /home/litconsu/public_html/send.php on line 84
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 2
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 8
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 17
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 26
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 35
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 44
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 53
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 62
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 71
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 79
+[10-Mar-2019 05:29:25 UTC] PHP Notice:  Undefined index: type in /home/litconsu/public_html/send.php on line 87
+[11-Mar-2019 18:11:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:11:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:17:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:17:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:17:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:19:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:20:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:20:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:20:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:20:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:21:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:22:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:22:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:22:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:22:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:22:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 18:25:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/litconsu/public_html/send.php on line 55
+[11-Mar-2019 19:05:27 UTC] PHP Notice:  Undefined index: dopInfoEmployer2 in /home/litconsu/public_html/send.php on line 65
+[11-Mar-2019 19:05:44 UTC] PHP Notice:  Undefined index: dopInfoEmployer2 in /home/litconsu/public_html/send.php on line 65
+[11-Mar-2019 19:07:54 UTC] PHP Notice:  Undefined index: dopInfoInvestor2 in /home/litconsu/public_html/send.php on line 75
+[11-Mar-2019 19:13:05 UTC] PHP Notice:  Undefined index: dopIfnoStartaper2 in /home/litconsu/public_html/send.php on line 101
+[11-Mar-2019 19:15:56 UTC] PHP Notice:  Undefined index: dopInfoExpert2 in /home/litconsu/public_html/send.php on line 45
+[11-Mar-2019 19:17:33 UTC] PHP Notice:  Undefined index: dopInfoEd2 in /home/litconsu/public_html/send.php on line 55
