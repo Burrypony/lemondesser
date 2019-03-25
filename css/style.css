@@ -502,7 +502,7 @@
 
 @media screen and (max-width: 480px) {
   #sidebar{
-    width: 100% !important;
+    width: 100vw !important;
     top: 70px !important;
     height: 100% !important;
   }
