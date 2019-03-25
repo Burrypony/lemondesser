@@ -635,6 +635,7 @@
     -webkit-transform: scale(0.4, 0.4);
     -o-transform: scale(0.4, 0.4);
     -moz-transform: scale(0.4, 0.4);
+    margin-top: 0 !important;
   }
 
   .header-logo {
@@ -1362,10 +1363,6 @@ geometric2 .section3::before {
   width: 915px;
   position: relative;
   margin-top: 100px;
-}
-
-.section5 {
-  margin-top: 250px;
 }
 
 #pirpleTriangle {
