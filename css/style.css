@@ -53,9 +53,6 @@
     width: 300px !important;
   }
 
-  .section6 {
-    margin-top: 0 !important;
-  }
 
   .section8 {
     width: 100% !important;
@@ -142,38 +139,6 @@
     width: 100%;
   }
 
-  #formInvestor {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formStartaper {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formExpert {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formEmployer2 {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
   .section2Ex h1 {
     width: 75% !important;
   }
@@ -200,13 +165,6 @@
     -moz-transform: scale(0.8, 0.8);
   }
 
-  #formEmployer2 {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
 
   .section4Rez .section4MainBlock {
     transform: scale(0.8, 0.8);
@@ -224,29 +182,6 @@
     -moz-transform: scale(0.8, 0.8);
   }
 
-  #formInvestor {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formStartaper {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  #formExpert {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
 
   .section2Ex h1 {
     width: 75% !important;
@@ -561,7 +496,46 @@
   }
 }
 
+.mobile{
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
+  .raleway25R{
+    font-size: 15px !important;
+  }
+
+  .sliderSettings h1{
+    font-size: 20px !important;
+  }
+  .sliderSettings h3{
+    font-size: 18px !important;
+  }
+  .sliderButton {
+    font-size: 15px !important;
+    width: 180px !important;
+    height: 50px !important;
+    border: 2px solid #4F4F4F !important;
+  }
+
+  .carousel-item{
+    height: 100%;
+  }
+  .mobile{
+    display: block !important;
+  }
+  .desctop{
+    display: none !important;
+  }
+  .section1{
+    height: 500px;
+  }
+  #carouselExampleIndicators{
+    height: 100%;
+  }
+  .carousel-inner{
+    height: 100%;
+  }
   body{
     width: 100vw !important;
   }
@@ -598,7 +572,7 @@
   }
 
   .labelForm p {
-    width: 100% !important;
+    width: 80% !important;
     padding-right: 0 !important;
   }
 
@@ -637,11 +611,53 @@
   .header-logo {
     margin-right: 0 !important;
   }
+  h1{
+    font-size: 30px !important;
+  }
+  .videoButton {
+    width: 175px !important;
+  }
+  .section3-img{
+    width: 100px !important;
+        margin-bottom: 0 !important;
+  }
+  .raleway20R{
+    font-size: 18px !important;
+  }
+  .section5-img{
+    width: 80px !important;
+    margin-bottom: 0 !important;
+  }
+  .section5-blocks span{
+    font-size: 18px !important;
+  }
+  .section6 h1{
+    font-size: 30px !important;
+  }
+  .section6-img{
+    width: 300px !important;
+    height: 250px !important;
+  }
+}
+
+.section6{
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 390px) {
   .header-logo {
-    width: 250px !important;
+    width: 205px !important;
+
+  }
+  .section3photo{
+    width: 570px !important;
+  }
+  .triangleClass{
+    transform: scale(0.35, 0.35);
+    -ms-transform: scale(0.35, 0.35);
+    -webkit-transform: scale(0.35, 0.35);
+    -o-transform: scale(0.35, 0.35);
+    -moz-transform: scale(0.35, 0.35);
   }
 }
 
