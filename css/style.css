@@ -53,7 +53,6 @@
     width: 300px !important;
   }
 
-
   .section8 {
     width: 100% !important;
   }
@@ -165,7 +164,6 @@
     -moz-transform: scale(0.8, 0.8);
   }
 
-
   .section4Rez .section4MainBlock {
     transform: scale(0.8, 0.8);
     -ms-transform: scale(0.8, 0.8);
@@ -181,7 +179,6 @@
     -o-transform: scale(0.8, 0.8);
     -moz-transform: scale(0.8, 0.8);
   }
-
 
   .section2Ex h1 {
     width: 75% !important;
@@ -237,6 +234,18 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .section7-type-client {
+    justify-content: center !important;
+  }
+
+  .section5-main-block {
+    width: 100% !important;
+  }
+
+  .section5-blocks {
+    width: 240px !important;
+  }
+
   .section7FirstDiv {
     margin-right: 0 !important;
   }
@@ -396,6 +405,43 @@
   footer {
     flex-direction: column;
   }
+
+  .mobile {
+    display: block !important;
+  }
+
+  .desctop {
+    display: none !important;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .section1 {
+    height: 500px;
+    margin-top: 100px !important;
+  }
+
+  #carouselExampleIndicators {
+    height: 100%;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .sliderSettings h1 {
+    font-size: 30px !important;
+  }
+
+  .sliderSettings h3 {
+    font-size: 20px !important;
+  }
+
+  .raleway25R{
+    font-size: 18px !important;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -496,45 +542,56 @@
   }
 }
 
-.mobile{
+.mobile {
   display: none;
 }
 
 @media screen and (max-width: 480px) {
-  #sidebar{
+  .section1 {
+    margin-top: 70px !important;
+  }
+  #sidebar {
     width: 100vw !important;
     top: 70px !important;
     height: 100% !important;
   }
-  .components li a{
+
+  .components li a {
     font-size: 20px !important;
   }
-  .sideBarBlur{
+
+  .sideBarBlur {
     opacity: 0.9 !important
   }
-  .list-unstyled{
+
+  .list-unstyled {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .animated-icon3.open span:nth-child(1) {
     top: -6px !important;
     left: 8px !important;
   }
-  header{
+
+  header {
     height: 70px !important;
   }
-  .raleway25R{
+
+  .raleway25R {
     font-size: 15px !important;
   }
 
-  .sliderSettings h1{
+  .sliderSettings h1 {
     font-size: 20px !important;
   }
-  .sliderSettings h3{
+
+  .sliderSettings h3 {
     font-size: 18px !important;
   }
+
   .sliderButton {
     font-size: 15px !important;
     width: 180px !important;
@@ -542,28 +599,10 @@
     border: 2px solid #4F4F4F !important;
   }
 
-  .carousel-item{
-    height: 100%;
-  }
-  .mobile{
-    display: block !important;
-  }
-  .desctop{
-    display: none !important;
-  }
-  .section1{
-    height: 500px;
-    margin-top: 70px !important;
-  }
-  #carouselExampleIndicators{
-    height: 100%;
-  }
-  .carousel-inner{
-    height: 100%;
-  }
-  body{
+  body {
     width: 100vw !important;
   }
+
   .section8-firstDiv h3 {
     font-size: 40px !important;
   }
@@ -637,48 +676,57 @@
   .header-logo {
     margin-right: 0 !important;
   }
-  h1{
+
+  h1 {
     font-size: 30px !important;
   }
+
   .videoButton {
     width: 175px !important;
   }
-  .section3-img{
+
+  .section3-img {
     width: 100px !important;
-        margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
   }
-  .raleway20R{
+
+  .raleway20R {
     font-size: 18px !important;
   }
-  .section5-img{
+
+  .section5-img {
     width: 80px !important;
     margin-bottom: 0 !important;
   }
-  .section5-blocks span{
+
+  .section5-blocks span {
     font-size: 18px !important;
   }
-  .section6 h1{
+
+  .section6 h1 {
     font-size: 30px !important;
   }
-  .section6-img{
+
+  .section6-img {
     width: 300px !important;
     height: 250px !important;
   }
 }
 
-.section6{
+.section6 {
   margin-top: 100px;
 }
 
 @media screen and (max-width: 390px) {
   .header-logo {
     width: 205px !important;
-
   }
-  .section3photo{
+
+  .section3photo {
     width: 570px !important;
   }
-  .triangleClass{
+
+  .triangleClass {
     transform: scale(0.35, 0.35);
     -ms-transform: scale(0.35, 0.35);
     -webkit-transform: scale(0.35, 0.35);
@@ -835,7 +883,9 @@ header {
   font-family: RalewayBold;
   font-size: 60px;
   margin-top: 150px;
-  margin-bottom: 75px
+  margin-bottom: 75px;
+  z-index: 2;
+
 }
 
 .section4 h2 {
