@@ -523,8 +523,9 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    top: -5px !important;
-    left: 8px !important;
+    top: -5px;
+    left: 8px;
+  }
   header{
     height: 70px !important;
   }
