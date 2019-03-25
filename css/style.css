@@ -519,12 +519,8 @@
     justify-content: center;
   }
   .animated-icon3.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: -5px;
-    left: 8px;
+    top: -6px !important;
+    left: 8px !important;
   }
   header{
     height: 70px !important;
