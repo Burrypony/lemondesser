@@ -398,11 +398,12 @@
 
   .section8-firstDiv {
     align-items: center !important;
+    margin-bottom: 50px;
   }
 
   .section8{
     flex-direction: column-reverse;
-    
+
   }
 }
 
