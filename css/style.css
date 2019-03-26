@@ -399,6 +399,11 @@
   .section8-firstDiv {
     align-items: center !important;
   }
+
+  .section8{
+    flex-direction: column-reverse;
+    
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -885,7 +890,6 @@ header {
   margin-top: 150px;
   margin-bottom: 75px;
   z-index: 2;
-
 }
 
 .section4 h2 {
