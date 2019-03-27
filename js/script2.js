@@ -4,6 +4,10 @@ $(document).ready(function() {
     $('.animated-icon3').toggleClass('open');
   });
 
+  $('.section1RezSpan').on('click', function(){
+    window.scroll(0,$(this).offset().top);
+  });
+
   $('#employer').on('click', function() {
     $('#employer').addClass("section7BlocksHover"),
       $('#investor').removeClass("section7BlocksHover"),

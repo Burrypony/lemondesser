@@ -663,6 +663,11 @@
 
 @media screen and (max-width: 480px) {
 
+  .section1Inv{
+    margin-left: -6px;
+    width: 102% !important;
+  }
+
   h2{
     font-size: 30px !important;
   }
