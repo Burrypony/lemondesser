@@ -39,6 +39,9 @@
 }
 
 @media screen and (max-width: 1500px) {
+  .section4StartupMainBlock{
+    width: 90% !important;
+  }
   .section7-img {
     width: 190px !important;
   }
@@ -57,10 +60,9 @@
     width: 100% !important;
   }
 
-  .RezBackground {
+  /* .RezBackground {
     margin-top: -40px !important;
-  }
-
+  } */
   #sidebar {
     height: 520px !important;
   }
@@ -76,14 +78,6 @@
   }
 
   .rezTable {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-  }
-
-  .section2BizTextAndPhoto h3:last-child {
     transform: scale(0.8, 0.8);
     -ms-transform: scale(0.8, 0.8);
     -webkit-transform: scale(0.8, 0.8);
@@ -137,16 +131,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .section6Biz{
-    margin-top: 0 !important;
+  .section7Exp-main-block{
+    width: 90% !important;
   }
-
-  .section2BizTextAndPhoto h3:last-child {
-    transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -webkit-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
+  .section6Biz {
+    margin-top: 0 !important;
   }
 
   .section4Rez .section4MainBlock {
@@ -197,7 +186,6 @@
     height: 505px !important;
   }
 
-
   .rezPhotoMain {
     margin-left: -360px;
   }
@@ -215,25 +203,62 @@
   }
 }
 
+
+.section1Start .section1RezSpan{
+  margin-bottom: 0;
+  margin-top: -20px;
+}
+
 @media screen and (max-width: 1180px) {
+  .section4StartupMainBlock  .section3-blocks{
+    width: fit-content !important;
+  }
   .section2BizTextAndPhoto h3 {
     text-align: center !important;
     width: 70% !important;
   }
+
+  .section8Rez-main-block {
+    width: 95% !important;
+  }
+  .section7startUp .section3Rez-main-block{
+    width: 90% !important;
+  }
 }
 
 @media screen and (max-width: 1024px) {
+  .section8Rez-main-block {
+    width: 90% !important;
+  }
+  .section7Inv1000px {
+    height: 1050px !important;
+  }
 
-  .section1RezText h2{
+  .section8Inv-blocks {
+    width: 90% !important;
+    min-width: 500px;
+    margin-right: 0 !important;
+  }
+
+  .section8Inv-blocks img {
+    width: 100% !important;
+  }
+
+  .section7InvTables p {
+    text-align: center;
+    font-size: 30px !important;
+  }
+
+  .section1RezText h2 {
     width: auto !important;
   }
 
-  .section1RezText h3{
+  .section1RezText h3 {
     width: auto !important;
     font-size: 25px !important;
   }
 
-  .section2BizTextAndPhoto h3{
+  .section2BizTextAndPhoto h3 {
     font-size: 20px !important;
   }
 
@@ -424,12 +449,16 @@
     -o-transform: scale(0.7, 0.7);
     -moz-transform: scale(0.7, 0.7);
   }
+  .section3{
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 875px) {
-  .position5Rez{
+  .position5Rez {
     height: 720px !important;
   }
+
   .section8-firstDiv h3 {
     text-align: center;
   }
@@ -453,7 +482,6 @@
 }
 
 @media screen and (max-width: 800px) {
-
   .rezTable {
     margin-left: 35px !important;
   }
@@ -477,8 +505,6 @@
   .desctop {
     display: none !important;
   }
-
-
 
   .carousel-item {
     height: 100%;
@@ -507,6 +533,18 @@
 
   .raleway25R {
     font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width:1024px) {
+  .section7Inv1000px{
+    height: 1300px !important;
+  }
+}
+
+@media screen and (min-width: 725px) and (max-width:860px) {
+  .section7Inv1000px{
+    height: 1090px !important;
   }
 }
 
@@ -575,6 +613,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  .section7InvTablesClose h2 {
+    text-align: center;
+  }
+
+  .section7InvTablesClose h3 {
+    text-align: center;
+  }
+
+  .section7InvTablesClose p {
+    width: 90% !important;
+  }
+
   .section3 h1 {
     text-align: center;
   }
@@ -653,7 +703,11 @@
   display: none;
 }
 
-.mobile480px{
+.mobile480px {
+  display: none;
+}
+
+.mobile480pxMain {
   display: none;
 }
 
@@ -663,21 +717,65 @@
 
 @media screen and (max-width: 480px) {
 
-  .section1Inv{
-    margin-left: -6px;
-    width: 102% !important;
+
+
+  .startapLeftDiv .sectionTextBlocks::before{
+    display: block !important;
+    background-color: #EAD657;
+    top: 39% !important;
   }
 
-  h2{
-    font-size: 30px !important;
+  .startapLeftDiv .sectionTextBlocks{
+    width: 275px !important;
+    text-align: left !important;
   }
 
-  .section1RezText h3{
+  .section7Inv1000px {
+    height: 214vw !important;
+  }
+  .section7Rez {
+    margin-top: 200px !important;
+  }
+
+  .section7InvTablesClose p {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+  .section8Rez-blocksSecond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section7InvTables p {
     font-size: 20px !important;
   }
 
-  .rezPhotoMain{
-    margin-left: 0 !important;
+  .section7Inv .rezTable {
+    position: absolute !important;
+    width: auto !important;
+    transform: scale(0.3, 0.3) !important;
+    -ms-transform: scale(0.3, 0.3) !important;
+    -webkit-transform: scale(0.3, 0.3) !important;
+    -o-transform: scale(0.3, 0.3) !important;
+    -moz-transform: scale(0.3, 0.3) !important;
+  }
+
+  .section1Inv {
+    width: 100% !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  .section1RezText h3 {
+    font-size: 20px !important;
+  }
+
+  .rezPhotoMain {
+    margin-left: -6px !important;
     height: 137% !important;
   }
 
@@ -686,16 +784,16 @@
     text-align: center;
   }
 
-  .section2BizTextAndPhoto h3{
+  .section2BizTextAndPhoto h3 {
     width: 50% !important;
   }
 
-  .section2BizTextAndPhoto:last-child img{
+  .section2BizTextAndPhoto:last-child img {
     width: 370px !important;
     height: 241px !important;
   }
 
-  .section2Biz h1{
+  .section2Biz h1 {
     text-align: center !important;
   }
 
@@ -703,36 +801,46 @@
     width: 90%;
   }
 
-  .section3MainBlockTextBiz{
+  .section3MainBlockTextBiz {
     width: 80%;
   }
 
-  .section3MainBlockTextBiz .sectionTextBlocks{
+  .section3MainBlockTextBiz .sectionTextBlocks {
     width: fit-content !important;
   }
 
-  .mobile480px{
+  .mobile480px {
     display: block !important;
     width: 90%;
     height: auto;
     margin: 10px auto;
   }
 
-  .mobile480px img{
+  .mobile480pxMain {
+    display: block !important;
+  }
+
+  .mobile480pxMain img {
     width: 100%;
   }
 
-  .desctop480px{
+  .mobile480px img {
+    width: 100%;
+  }
+
+  .desctop480px {
     display: none !important;
   }
 
-  .section5DivTextSecondSpan{
+  .section5DivTextSecondSpan {
     font-size: 17px !important;
   }
 
-  .position5Rez{
+  .position5Rez {
     height: auto !important;
+    width: 100%;
   }
+
   .rezTable {
     position: relative !important;
     transform: scale(1, 1);
@@ -747,11 +855,12 @@
     width: 90% !important;
     margin: 30px auto;
   }
+
   .section6BizBefore, .section6BizAfter {
     width: 60px !important;
   }
 
-  .section5DivText{
+  .section5DivText {
     position: static !important;
     flex-direction: row !important;
     width: auto !important;
@@ -760,7 +869,7 @@
     margin: 10px auto;
   }
 
-  .section5DivTextFirstSpan{
+  .section5DivTextFirstSpan {
     margin-left: 0 !important;
   }
 
@@ -789,7 +898,7 @@
     display: none !important;
   }
 
-  .section3MainBlockTextBiz .sectionTextBlocks1:before, .sectionTextBlocks2:before, .sectionTextBlocks3:before, .sectionTextBlocks4:before {
+  .section3MainBlockTextBiz .sectionTextBlocks1:before, .section3MainBlockTextBiz .sectionTextBlocks2:before, .section3MainBlockTextBiz .sectionTextBlocks3:before, .section3MainBlockTextBiz .sectionTextBlocks4:before {
     display: block !important;
     top: 33px;
     background-color: #AFDE92 !important;
@@ -976,6 +1085,19 @@
     width: 300px !important;
     height: 250px !important;
   }
+
+  .invPage .sectionTextBlocks1:before, .invPage .sectionTextBlocks2:before, .invPage .sectionTextBlocks3:before, .invPage .sectionTextBlocks4:before {
+    background-color: #F6C5AD !important;
+  }
+
+  .section2ExpertSecondPhoto:last-child img {
+    width: 240px !important;
+    height: 240px !important;
+    margin: 0 !important;
+  }
+  .section3MainBlockTextExpertOnly{
+    margin: 50px auto;
+  }
 }
 
 .section6 {
@@ -983,6 +1105,38 @@
 }
 
 @media screen and (max-width: 390px) {
+  .section3MainBlockTextStart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .startapLeftDiv .sectionTextBlocks::before{
+    left: -45px !important;
+  }
+  .section3MainBlockTextStart .sectionTextBlocks6{
+    width: 190px !important;
+  }
+  .section3MainBlockTextStart .sectionTextBlocks6::before{
+    left: -45px !important;
+  }
+  .startapLeftDiv .sectionTextBlocks{
+    width: 190px !important;
+  }
+  .section3MainBlockTextStart .sectionTextBlocks5{
+    width: 190px !important;
+  }
+  .section7Inv1000px {
+    height: 880px !important;
+  }
+
+  .section7Inv .rezTable {
+    transform: scale(0.2, 0.2) !important;
+    -ms-transform: scale(0.2, 0.2) !important;
+    -webkit-transform: scale(0.2, 0.2) !important;
+    -o-transform: scale(0.2, 0.2) !important;
+    -moz-transform: scale(0.2, 0.2) !important;
+  }
+
   .section6Biz {
     height: 460px !important;
   }
@@ -997,10 +1151,15 @@
     left: 13px !important;
   }
 
+  .section3MainBlockTextExpertOnly .sectionTextBlocks5::before{
+    left: -10% !important;
+  }
+
   .section3MainBlockTextBiz .sectionTextBlocks1:before, .sectionTextBlocks2:before, .sectionTextBlocks3:before, .sectionTextBlocks4:before {
     left: -10% !important;
   }
-  .section3MainBlockTextBiz .sectionTextBlocks5:before, .sectionTextBlocks6:before, .sectionTextBlocks7:before, .sectionTextBlocks8:before{
+
+  .section3MainBlockTextBiz .sectionTextBlocks5:before, .sectionTextBlocks6:before, .sectionTextBlocks7:before, .sectionTextBlocks8:before {
     left: -10% !important;
   }
 
@@ -1018,6 +1177,14 @@
     -webkit-transform: scale(0.35, 0.35);
     -o-transform: scale(0.35, 0.35);
     -moz-transform: scale(0.35, 0.35);
+  }
+
+  .section1RezText h2 {
+    font-size: 25px !important;
+  }
+
+  .section1RezText h3 {
+    font-size: 17px !important;
   }
 }
 
@@ -1670,6 +1837,7 @@ geometric2 .section3::before {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .sliderText {
@@ -2637,7 +2805,7 @@ svg .button {
 .section1Rez span {
   margin: 0 auto;
   z-index: 3;
-  margin-bottom: -30px;
+  margin-bottom: -20px;
 }
 
 .rezPhotoMain {
@@ -2715,15 +2883,12 @@ svg .button {
 }
 
 .section3Rez-main-block {
-  width: 820px !important;
+  width: 820px ;
+  margin: 25px 0px;
 }
 
 .section3RezBlockSpan {
   width: 250px;
-}
-
-.section3Rez-main-block {
-  margin: 25px 0px;
 }
 
 .section4MainBlockText {
@@ -3102,10 +3267,6 @@ svg .button {
   box-shadow: 7px 20px 156px -31px rgba(212, 179, 238, 1);
 }
 
-.section8Rez-main-block {
-  width: 1300px !important;
-}
-
 .section8Rez-blocks img {
   width: 120px;
   height: 120px;
@@ -3181,6 +3342,14 @@ svg .button {
 }
 
 .section2BizTextAndPhoto h3 {
+  font-family: RalewayRegular;
+  font-size: 25px;
+  color: #4F4F4F;
+  width: 670px;
+  text-align: right;
+}
+
+.section2ExpertSecondPhoto h3 {
   font-family: RalewayRegular;
   font-size: 25px;
   color: #4F4F4F;
@@ -3556,6 +3725,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText1 {
+  position: absolute;
   top: 290px;
   right: 1000px;
   width: 165px;
@@ -3563,6 +3733,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText2 {
+  position: absolute;
   top: 500px;
   right: 1000px;
   width: 134px;
@@ -3584,6 +3755,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText3 {
+  position: absolute;
   top: 430px;
   right: 775px;
   width: 193px;
@@ -3597,12 +3769,14 @@ svg .button {
 }
 
 .invTable2 .section5DivText4 {
+  position: absolute;
   top: 320px;
   right: 550px;
   width: 165px;
 }
 
 .invTable2 .section5DivText5 {
+  position: absolute;
   top: 500px;
   right: 530px;
   width: 200px;
@@ -3617,6 +3791,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText6 {
+  position: absolute;
   top: 425px;
   right: 273px;
   width: 225px;
@@ -3630,6 +3805,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText7 {
+  position: absolute;
   top: 795px;
   right: 255px;
   width: 250px;
@@ -3643,6 +3819,7 @@ svg .button {
 }
 
 .invTable2 .section5DivText8 {
+  position: absolute;
   top: 810px;
   right: 742px;
   width: 265px;
@@ -3682,7 +3859,6 @@ svg .button {
 .section7InvTablesClose p {
   text-align: left;
   width: 465px;
-  ;
   font-size: 25px;
 }
 
@@ -3705,14 +3881,11 @@ svg .button {
 }
 
 .invTable3 .section5DivText1 {
+  position: absolute;
   top: 588px;
   right: 1290px;
   width: 140px;
   text-align: center;
-}
-
-.section7Inv1000px {
-  height: 1000px;
 }
 
 .invTable3 .section5DivText1 span {
@@ -3722,12 +3895,14 @@ svg .button {
 }
 
 .invTable3 .section5DivText2 {
+  position: absolute;
   top: 330px;
   right: 970px;
   width: 230px;
 }
 
 .invTable3 .section5DivText3 {
+  position: absolute;
   top: 430px;
   right: 710px;
   width: 230px;
@@ -3741,12 +3916,14 @@ svg .button {
 }
 
 .invTable3 .section5DivText4 {
+  position: absolute;
   top: 330px;
   right: 450px;
   width: 230px;
 }
 
 .invTable3 .section5DivText5 {
+  position: absolute;
   top: 738px;
   right: 530px;
   width: 180px;
@@ -3760,6 +3937,7 @@ svg .button {
 }
 
 .invTable3 .section5DivText6 {
+  position: absolute;
   top: 740px;
   right: 980px;
   width: 185px;
@@ -3916,7 +4094,7 @@ svg .button {
 }
 
 .section4StartupMainBlock {
-  width: 1300px !important;
+  width: 1300px ;
 }
 
 .startTable .section5DivText2 {
@@ -3952,7 +4130,7 @@ svg .button {
 }
 
 .section7startUp .section3Rez-main-block {
-  width: 1025px !important;
+  width: 1025px;
 }
 
 .startText {
@@ -3965,6 +4143,13 @@ svg .button {
 
 .section2ExpertSecondPhoto img {
   width: 420px !important;
+}
+
+.section2ExpertSecondPhoto {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section3MainBlockTextExpert .sectionTextBlocks5, .sectionTextBlocks6, .sectionTextBlocks7 {
@@ -4464,7 +4649,7 @@ svg .button {
 }
 
 .section7Exp-main-block {
-  width: 1320px !important;
+  width: 1320px ;
 }
 
 .section2Ex h1 {
