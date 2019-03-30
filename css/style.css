@@ -182,9 +182,7 @@
     margin-top: -30px !important;
   }
 
-  .section1Ed {
-    height: 505px !important;
-  }
+
 
   .rezPhotoMain {
     margin-left: -360px;
@@ -194,9 +192,6 @@
     top: -4% !important;
   }
 
-  .section1RezSpanRez {
-    padding-bottom: 25px !important;
-  }
 
   .section6-first-div {
     width: 100%;
@@ -224,9 +219,76 @@
   .section7startUp .section3Rez-main-block{
     width: 90% !important;
   }
+  .section8Rez h1{
+    width: 90% !important;
+  }
+}
+
+.section3-blocksEd{
+  margin: 25px;
 }
 
 @media screen and (max-width: 1024px) {
+  .section1EdText h1{
+    font-size: 35px !important;
+    width: 90% !important;
+  }
+
+  .section1EdText h4{
+    font-size: 19px !important;
+  }
+
+  .section1Ed span{
+    font-size: 18px !important;
+  }
+
+  .section5Edu div{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    height: fit-content !important;
+  }
+  .section7EdMainBlock{
+    width: 90% !important;
+    margin: 50px auto;
+  }
+  .section8 {
+    flex-direction: column-reverse;
+  }
+  .section8-firstDiv{
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .section9RezText p{
+    font-size: 45px   !important;
+    width: 90% !important;
+  }
+  .position5Rez h2 b{
+    font-size: 50px !important;
+  }
+  .section4Rez .section4MainBlock{
+    transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
+    -o-transform: scale(0.6, 0.6);
+    -moz-transform: scale(0.6, 0.6);
+  }
+  .section8Rez h1{
+    font-size:  50px !important;
+  }
+  .section2Rez{
+    flex-wrap: wrap;
+  }
+  .section3Rez-blocks {
+    width: fit-content !important;
+  }
+  .position5Rez2 h2 b{
+    font-size: 50px !important;
+  }
+  .section2Rez h3{
+    width: 90% !important;
+    text-align: center !important;
+    font-size: 22px !important;
+  }
   .section8Rez-main-block {
     width: 90% !important;
   }
@@ -455,6 +517,9 @@
 }
 
 @media screen and (max-width: 875px) {
+  .section4MainBlockText{
+    margin-left: 0 !important;
+  }
   .position5Rez {
     height: 720px !important;
   }
@@ -468,9 +533,7 @@
     margin-bottom: 50px;
   }
 
-  .section8 {
-    flex-direction: column-reverse;
-  }
+
 
   .rezTable {
     transform: scale(0.5, 0.5);
@@ -482,6 +545,13 @@
 }
 
 @media screen and (max-width: 800px) {
+  .section1EdText{
+    justify-content: space-evenly !important;
+  }
+  .section6Rez{
+    flex-wrap: wrap !important;
+    height: fit-content !important;
+  }
   .rezTable {
     margin-left: 35px !important;
   }
@@ -558,6 +628,14 @@
     text-align: center;
   }
 
+  .section4Rez .section4MainBlock {
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+  }
+
   .triangleClass {
     transform: scale(0.6, 0.6);
     -ms-transform: scale(0.6, 0.6);
@@ -613,6 +691,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .rezTableMain{
+    margin-top: 60px !important;
+  }
   .section7InvTablesClose h2 {
     text-align: center;
   }
@@ -666,6 +747,15 @@
     -moz-transform: scale(0.3, 0.3);
   }
 
+  .section4Rez .section4MainBlock {
+    transform: scale(0.4, 0.4);
+    -ms-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
+    -o-transform: scale(0.4, 0.4);
+    -moz-transform: scale(0.4, 0.4);
+  }
+
+
   .header-logo {
     width: 300px !important;
   }
@@ -697,6 +787,10 @@
   .phonImage7 {
     width: 100% !important;
   }
+  .section6Rez h1{
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
 }
 
 .mobile {
@@ -715,9 +809,49 @@
   height: 107%;
 }
 
+.section1BizSpan{
+  margin-top: -22px !important;
+  margin-bottom: 0 !important;
+}
+
+.section1InvSpan{
+  margin-top: -38px !important;
+    margin-bottom: 0 !important;
+}
+
 @media screen and (max-width: 480px) {
 
+  .section3Biz h1{
+    margin-top: 20px !important;
+  }
 
+  .section1EdText button{
+    margin-top: -38px;
+  }
+
+  .section1EdText h4{
+    font-size: 15px !important;
+  }
+
+  .section1EdText h1{
+    font-size: 30px !important;
+  }
+
+  .position5Rez h2 b{
+    font-size: 30px !important;
+  }
+
+  .position5Rez2 h2 b{
+    font-size: 30px !important;
+  }
+
+  .section9RezText p{
+    font-size: 25px !important;
+  }
+
+  .section8Rez h1{
+    font-size:  30px !important;
+  }
 
   .startapLeftDiv .sectionTextBlocks::before{
     display: block !important;
@@ -888,6 +1022,18 @@
     -o-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     flex-direction: column;
+  }
+
+  .section4Rez .section4MainBlock {
+    transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+  }
+
+  .sectionTextBlocks{
+    width: 90% !important;
   }
 
   .section3MainBlockTextBiz .sectionTextBlocks1, .sectionTextBlocks2, .sectionTextBlocks3, .sectionTextBlocks4 {
@@ -1102,6 +1248,11 @@
 
 .section6 {
   margin-top: 100px;
+}
+
+.section1Ed span{
+  margin-top: -37px !important;
+  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 390px) {
@@ -3327,6 +3478,7 @@ svg .button {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: 2
 }
 
 .section2BizTextAndPhoto img {
@@ -4210,7 +4362,11 @@ svg .button {
 }
 
 .section7EdMainBlock {
-  width: 1060px !important;
+  width: 1060px ;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .mt60px {
