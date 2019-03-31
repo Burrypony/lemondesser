@@ -145,11 +145,11 @@ $(document).ready(function() {
 
   $('#secondInvTable').on('click', function(){
     $("#invTable3").removeClass('dislayNone');
-    if($(window).width() >= 1024)
+    if($(window).width() > 1024)
     {
       $(".invTable3").css("margin-top", "220px");
     }
-    if(($(window).width() > 860)&&($(window).width() < 1024))
+    if(($(window).width() > 860)&&($(window).width() <= 1024))
     {
       $(".invTable3").css("margin-top", "700px");
     }
